@@ -380,6 +380,10 @@
 		<data>
 		tWwlprRHSzcIqFBlITsD2fWvAN4=
 		</data>
+		<key>cse.lk.der</key>
+		<data>
+		HNxuxZUFyqI75gsTwGhazjtiigs=
+		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -1059,6 +1063,13 @@
 			<key>hash2</key>
 			<data>
 			FFsi2CyGpqtoc+stRdFBMytIeLtg4wm+EMoWc8d+FNI=
+			</data>
+		</dict>
+		<key>cse.lk.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J0I1mH1hyRPGrJypZTB+a6L6Cu+kmhQ9ibkO2m1iRVU=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
