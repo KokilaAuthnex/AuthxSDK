@@ -2,13 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>ArchiveVersion</key>
-	<integer>2</integer>
-	<key>CreationDate</key>
-	<date>2023-08-28T04:49:20Z</date>
-	<key>Name</key>
-	<string>authxSDK</string>
-	<key>SchemeName</key>
-	<string>TestAuthX</string>
+	<key>AvailableLibraries</key>
+	<array>
+		<dict>
+			<key>LibraryIdentifier</key>
+			<string>ios-arm64</string>
+			<key>LibraryPath</key>
+			<string>authxSDK.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
+		</dict>
+	</array>
+	<key>CFBundlePackageType</key>
+	<string>XFWK</string>
+	<key>XCFrameworkFormatVersion</key>
+	<string>1.0</string>
 </dict>
 </plist>
