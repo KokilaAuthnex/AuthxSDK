@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――----------------------------------――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.name         = "authxSDK"
+  s.name         = "AuthXSDK"
   s.version      = "1.0.0"
   s.summary      = "Authnex SDK"
   s.description  = "Eliminate the hassle of forgotten passwords and the risk of stolen passwords with Authnex"
