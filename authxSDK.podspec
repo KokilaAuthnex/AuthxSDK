@@ -3,13 +3,13 @@ Pod::Spec.new do |s|
   # ―――----------------------------------――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "authxSDK"
-  s.version      = "0.2.39"
+  s.version      = "1.0.0"
   s.summary      = "Authnex SDK"
   s.description  = "Eliminate the hassle of forgotten passwords and the risk of stolen passwords with Authnex"
   #s.documentation_url = 'https://bitbucket.org/aunex/authnexui/src/master/README.md'
   s.homepage     = "https://www.authnex.com"
   # s.license            = { :type => 'MIT', :file => 'LICENSE' }
-  s.author             = { "Lahiru Chathuranga" => "info@authnex.lk" }
+  s.author       = { "Lahiru Chathuranga" => "info@authnex.lk" }
 
   # ―――----------------------------------――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 

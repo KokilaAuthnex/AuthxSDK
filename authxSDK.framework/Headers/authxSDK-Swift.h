@@ -245,15 +245,11 @@ using UInt = size_t;
 #if __has_attribute(external_source_symbol)
 # pragma push_macro("any")
 # undef any
-# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="authxSDK",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
+# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="AuthXSDK",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
 
 #if defined(__OBJC__)
-
-
-
-
 
 
 
