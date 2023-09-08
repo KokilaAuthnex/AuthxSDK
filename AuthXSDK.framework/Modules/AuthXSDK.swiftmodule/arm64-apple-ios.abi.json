@@ -4366,6 +4366,66 @@
           },
           {
             "kind": "Function",
+            "name": "validateQR",
+            "printedName": "validateQR(code:tokenInfo:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TokenInfo",
+                "printedName": "AuthXSDK.TokenInfo",
+                "usr": "s:8AuthXSDK9TokenInfoV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AuthXSDK.AuthXResult<AuthXSDK.Container>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthXResult",
+                    "printedName": "AuthXSDK.AuthXResult<AuthXSDK.Container>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Container",
+                        "printedName": "AuthXSDK.Container",
+                        "usr": "s:8AuthXSDK9ContainerV"
+                      }
+                    ],
+                    "usr": "s:8AuthXSDK0A7XResultC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AuthXSDK0A4XSdkC10validateQR4code9tokenInfo10completionySS_AA05TokenH0VyAA0A7XResultCyAA9ContainerVGctKF",
+            "mangledName": "$s8AuthXSDK0A4XSdkC10validateQR4code9tokenInfo10completionySS_AA05TokenH0VyAA0A7XResultCyAA9ContainerVGctKF",
+            "moduleName": "AuthXSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "updateImage",
             "printedName": "updateImage(tokenInfo:image:completion:)",
             "children": [
@@ -19920,7 +19980,7 @@
     {
       "filePath": "\/Users\/admin\/Repos\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Controllers\/AuthXSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 9069,
+      "offset": 9733,
       "length": 2,
       "value": "14"
     },
@@ -19934,14 +19994,14 @@
     {
       "filePath": "\/Users\/admin\/Repos\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "StringLiteral",
-      "offset": 1859,
+      "offset": 1963,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Repos\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 16306,
+      "offset": 16410,
       "length": 4,
       "value": "true"
     },
@@ -20396,7 +20456,7 @@
     {
       "filePath": "\/Users\/admin\/Repos\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Helper\/GlobalVariables.swift",
       "kind": "StringLiteral",
-      "offset": 406,
+      "offset": 430,
       "length": 2,
       "value": "\"\""
     },
