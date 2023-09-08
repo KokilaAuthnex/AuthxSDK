@@ -19980,7 +19980,7 @@
     {
       "filePath": "\/Users\/admin\/Repos\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Controllers\/AuthXSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 9733,
+      "offset": 9759,
       "length": 2,
       "value": "14"
     },
@@ -19994,14 +19994,14 @@
     {
       "filePath": "\/Users\/admin\/Repos\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "StringLiteral",
-      "offset": 1963,
+      "offset": 1945,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Repos\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 16410,
+      "offset": 16392,
       "length": 4,
       "value": "true"
     },
