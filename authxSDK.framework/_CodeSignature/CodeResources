@@ -342,7 +342,7 @@
 		</data>
 		<key>Modules/authxSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Sp49YKfORN/B3vRS2c96DeCFeFc=
+		DHFYtD3CHBnTLeg+iNi3nwXEe4M=
 		</data>
 		<key>Modules/authxSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -371,6 +371,10 @@
 		<key>aunexapi.com.der</key>
 		<data>
 		kQ62LHtgZQFv62Eyt/FgWIDwEz8=
+		</data>
+		<key>authnex.com.der</key>
+		<data>
+		iYIB0uiYBQx3O9eK2sXv+jbzjsY=
 		</data>
 		<key>authxengine.cse.lk.der</key>
 		<data>
@@ -999,7 +1003,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SXE9Zi2D/jxOzeEAZHQa0DIiGrzW1uUEhgw0z/XsL50=
+			SYtZL8T8GVwu+leC/YD7kKeyJ4no5n9unwAvSSrbnMM=
 			</data>
 		</dict>
 		<key>Modules/authxSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1049,6 +1053,13 @@
 			<key>hash2</key>
 			<data>
 			zPJLkwedA9Ujved4T+8MZao6lxUR2qHCOvaAJFt69Fc=
+			</data>
+		</dict>
+		<key>authnex.com.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LtMQgsahaaNkGOVPn7QaMvNDZBdGh0a9uTsGta/8lJQ=
 			</data>
 		</dict>
 		<key>authxengine.cse.lk.der</key>
