@@ -24860,48 +24860,48 @@
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
       "offset": 906,
-      "length": 14,
-      "value": "\"authaunexapi\""
+      "length": 9,
+      "value": "\"authnex\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 959,
+      "offset": 954,
       "length": 9,
       "value": "\"hnb_uat\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1014,
+      "offset": 1009,
       "length": 10,
       "value": "\"hnb_prod\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1160,
-      "length": 14,
-      "value": "\"aunexapi.com\""
+      "offset": 1155,
+      "length": 13,
+      "value": "\"authnex.com\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
+      "offset": 1207,
       "length": 31,
       "value": "\"hnbauthenticatorapiuat.hnb.lk\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1290,
+      "offset": 1284,
       "length": 28,
       "value": "\"hnbauthenticatorapi.hnb.lk\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1395,
+      "offset": 1389,
       "length": 5,
       "value": "false"
     },
@@ -25544,267 +25544,295 @@
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2771,
+      "length": 33,
+      "value": "\"RESPONSE: => \""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2803,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2985,
+      "offset": 3046,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2991,
+      "offset": 3052,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 3331,
+      "offset": 3392,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 3459,
+      "offset": 3520,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 3564,
+      "offset": 3625,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 3869,
+      "offset": 3930,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 3876,
+      "offset": 3937,
       "length": 111,
       "value": "\"Server timeout: The request has timed out. Please try again later or contact support if the problem persists.\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4133,
+      "offset": 4194,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 4140,
+      "offset": 4201,
       "length": 111,
       "value": "\"Server timeout: The request has timed out. Please try again later or contact support if the problem persists.\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4406,
+      "offset": 4467,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 4413,
+      "offset": 4474,
       "length": 147,
       "value": "\"SSL error: The connection to the server could not be established due to an SSL error. Please ensure that your connection is secure and try again.\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4689,
+      "offset": 4750,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 5833,
+      "offset": 5892,
       "length": 24,
       "value": "\"**** REQUEST INFO ****\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 5877,
+      "offset": 5936,
       "length": 50,
       "value": "\"URL: ========> \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 5926,
+      "offset": 5985,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 5947,
+      "offset": 6006,
       "length": 38,
       "value": "\"HEADERS: ====> \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 5984,
+      "offset": 6043,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 6005,
+      "offset": 6064,
       "length": 43,
       "value": "\"BODY: => \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 6047,
+      "offset": 6106,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 6068,
+      "offset": 6127,
       "length": 43,
       "value": "\"METHOD: => \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 6107,
+      "offset": 6166,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 6110,
+      "offset": 6169,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 6355,
+      "offset": 6414,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 6383,
+      "offset": 6442,
       "length": 31,
       "value": "\"STATUS_CODE: => \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 6413,
+      "offset": 6472,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6501,
+      "length": 33,
+      "value": "\"RESPONSE: => \""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6533,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 6631,
+      "offset": 6751,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 6637,
+      "offset": 6757,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 6907,
+      "offset": 7027,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 7016,
+      "offset": 7136,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 7144,
+      "offset": 7264,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 7282,
+      "offset": 7402,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 7587,
+      "offset": 7707,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 7594,
+      "offset": 7714,
       "length": 111,
       "value": "\"Server timeout: The request has timed out. Please try again later or contact support if the problem persists.\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 7851,
+      "offset": 7971,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 7858,
+      "offset": 7978,
       "length": 111,
       "value": "\"Server timeout: The request has timed out. Please try again later or contact support if the problem persists.\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8124,
+      "offset": 8244,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 8131,
+      "offset": 8251,
       "length": 147,
       "value": "\"SSL error: The connection to the server could not be established due to an SSL error. Please ensure that your connection is secure and try again.\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8407,
+      "offset": 8527,
       "length": 5,
       "value": "false"
     },
@@ -25944,9 +25972,16 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/Endpoint.swift",
       "kind": "StringLiteral",
-      "offset": 436,
+      "offset": 434,
       "length": 7,
       "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/Endpoint.swift",
+      "kind": "IntegerLiteral",
+      "offset": 558,
+      "length": 4,
+      "value": "9567"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Github\/SDKs\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Helper\/AuthXResult.swift",
