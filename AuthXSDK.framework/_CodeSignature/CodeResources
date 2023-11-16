@@ -48,6 +48,14 @@
 		<data>
 		KW9PMtnMbZSTMV5dHrNchOd0EQQ=
 		</data>
+		<key>hnb_prod.der</key>
+		<data>
+		+dsmsnuBxRXAYN32uB17HOxOGtc=
+		</data>
+		<key>hnb_uat.der</key>
+		<data>
+		+dsmsnuBxRXAYN32uB17HOxOGtc=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -119,6 +127,20 @@
 			<key>hash2</key>
 			<data>
 			WvxG7VCzanv1wdJh2CEZc6kCynpfyguGL7OVQd5kkT4=
+			</data>
+		</dict>
+		<key>hnb_prod.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vGMN3bW6/m6cVd8CSAMzb+R9pyQW56e9vUdDQX6XSyY=
+			</data>
+		</dict>
+		<key>hnb_uat.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vGMN3bW6/m6cVd8CSAMzb+R9pyQW56e9vUdDQX6XSyY=
 			</data>
 		</dict>
 	</dict>
