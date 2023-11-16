@@ -1,11 +1,11 @@
-framework module authxSDK {
-  umbrella header "authxSDK.h"
+framework module AuthXSDK {
+  umbrella header "AuthXSDK.h"
   export *
 
   module * { export * }
 }
 
-module authxSDK.Swift {
-  header "authxSDK-Swift.h"
+module AuthXSDK.Swift {
+  header "AuthXSDK-Swift.h"
   requires objc
 }
