@@ -48,7 +48,7 @@
 		<data>
 		KW9PMtnMbZSTMV5dHrNchOd0EQQ=
 		</data>
-		<key>authnex.com.der</key>
+		<key>authnex.der</key>
 		<data>
 		fsLqK0gOL88fO7uN4ogGq4+W1Gc=
 		</data>
@@ -133,7 +133,7 @@
 			WvxG7VCzanv1wdJh2CEZc6kCynpfyguGL7OVQd5kkT4=
 			</data>
 		</dict>
-		<key>authnex.com.der</key>
+		<key>authnex.der</key>
 		<dict>
 			<key>hash2</key>
 			<data>
