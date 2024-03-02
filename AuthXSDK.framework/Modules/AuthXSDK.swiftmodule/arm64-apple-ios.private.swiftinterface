@@ -10,6 +10,7 @@ import DeveloperToolsSupport
 import Foundation
 import JOSESwift
 import LocalAuthentication
+import OSLog
 import RxCocoa
 import RxSwift
 import Security
@@ -148,7 +149,6 @@ public enum PasswordChangeStatus : Swift.Int, Swift.Decodable {
   final public func refreshToken(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
   final public func generateMobileSMSOTP(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
   final public func validateMobileSMSOTP(otp: Swift.String, tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
-  final public func validateQR(code: Swift.String, tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
   final public func updateImage(tokenInfo: AuthXSDK.TokenInfo, image: Swift.String, completion: @escaping AuthXSDK.resultHandler) throws
   final public func generateSoftToken(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
   final public func changePassword(tokenInfo: AuthXSDK.TokenInfo, userInfo: AuthXSDK.PasswordChangeInfo, completion: @escaping AuthXSDK.resultHandler) throws
