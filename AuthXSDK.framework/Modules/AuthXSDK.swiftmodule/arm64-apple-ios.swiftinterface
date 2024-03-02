@@ -1,0 +1,478 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AuthXSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Alamofire
+@_exported import AuthXSDK
+import CertificateSigningRequest
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import JOSESwift
+import LocalAuthentication
+import OSLog
+import RxCocoa
+import RxSwift
+import Security
+import SwCrypt
+import Swift
+import SwiftKeychainWrapper
+import SwiftUI
+import SwiftyJSON
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum RulesMode : Swift.Int, Swift.Codable {
+  case KSPB
+  case KSUB
+  case KSPP
+  case KSA
+  case KSC
+  case KSPT
+  case KSPF
+  case NONE
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct AuthInfoResponse : Swift.Decodable {
+  public var userKey: Swift.String?
+  public var isEnrolled: Swift.Bool?
+  public var info: [AuthXSDK.UserMFAStatus]?
+  public init(userKey: Swift.String?, isEnrolled: Swift.Bool?, info: [AuthXSDK.UserMFAStatus]?)
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case userKey
+    case isEnrolled
+    case info
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct UserMFAStatus : Swift.Decodable {
+  public var type: Swift.String?
+  public var isEnrolled: Swift.Bool?
+  public init(type: Swift.String?, isEnrolled: Swift.Bool?)
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case type
+    case isEnrolled
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SignOutResponse : Swift.Decodable {
+  public var signInStatus: AuthXSDK.SigninStatus?
+  public init(signInStatus: AuthXSDK.SigninStatus?)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum AuthenticationMode : Swift.Int, Swift.Codable {
+  case keyStoreAuthenticated
+  case keyStoreOnly
+  case hybrid
+  case none
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum AuthenticationInfo : Swift.Int, Swift.Codable {
+  case biometricOnly
+  case pinPatternOnly
+  case biometricPinPatern
+  case deviceAuthenticator
+  case hybrid
+  case none
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct TokenInfo {
+  public var accessToken: Swift.String
+  public init(accessToken: Swift.String)
+}
+public struct ChangePasswordResponse : Swift.Decodable {
+  public var status: AuthXSDK.PasswordChangeStatus?
+  public var error: Swift.String
+  public init(status: AuthXSDK.PasswordChangeStatus? = nil, error: Swift.String)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum PasswordChangeStatus : Swift.Int, Swift.Decodable {
+  case Succeeded
+  case WrongCurrentPassword
+  case InvalidUser
+  case Failed
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class AuthXSdk {
+  public static let sharedInstance: AuthXSDK.AuthXSdk
+  final public func initSDK() throws
+  final public func initSDK(channelID: Swift.String) throws
+  final public func initSDK(channelID: Swift.String?, clientInfo: AuthXSDK.AuthXSDKClientInfo) throws
+  final public func isUserRegisted() throws -> Swift.Bool
+  final public func resetPassword(username: Swift.String, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func loginValidation(userInfo: AuthXSDK.UserInfo, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func signIn(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func signOut(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func refreshToken(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func generateMobileSMSOTP(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func validateMobileSMSOTP(otp: Swift.String, tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func updateImage(tokenInfo: AuthXSDK.TokenInfo, image: Swift.String, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func generateSoftToken(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func changePassword(tokenInfo: AuthXSDK.TokenInfo, userInfo: AuthXSDK.PasswordChangeInfo, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func enroll(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func authentication(tokenInfo: AuthXSDK.TokenInfo, counter: Swift.Int? = 14, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func authenticationReject(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func updateAuthenticator(tokenInfo: AuthXSDK.TokenInfo, authType: AuthXSDK.MFAType, enabled: Swift.Bool, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func getAuthenticatorInfo(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
+  final public func didReceiveRemoteNotification(tokenInfo: AuthXSDK.TokenInfo, _ userInfo: [Swift.AnyHashable : Any]) throws
+  final public func willPresent(_ notification: UserNotifications.UNNotification, completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) throws
+  @objc deinit
+}
+public struct LoginResponse : Swift.Decodable {
+  public var status: AuthXSDK.LoginStatus?
+  public var token: AuthXSDK.Token?
+  public var cipherKey: Swift.String?
+  public var userObject: AuthXSDK.UserObject?
+  public var deviceCount: Swift.Int?
+  public var passwordOptions: AuthXSDK.Password?
+  public init(status: AuthXSDK.LoginStatus?, token: AuthXSDK.Token?, cipherKey: Swift.String?, userObject: AuthXSDK.UserObject?, deviceCount: Swift.Int?, passwordOptions: AuthXSDK.Password?)
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case status
+    case token
+    case cipherKey
+    case userObject
+    case deviceCount
+    case passwordOptions
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum LoginStatus : Swift.Int, Swift.Decodable {
+  case Succeeded
+  case LockedOut
+  case NotAllowed
+  case RequiresTwoFactor
+  case InvalidCredential
+  case Failed
+  case NeedToChangePassword
+  case InvalidDateTime
+  case VersionUpdateRequired
+  case BiometricLoginDisabled
+  case R2FaNChangePWD
+  case Undefined
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct Token : Swift.Decodable {
+  public var Scope: Swift.String?
+  public var AccessToken: Swift.String?
+  public var RefreshToken: Swift.String?
+  public var ExpiresIn: Swift.Int?
+  public var TokenType: Swift.String?
+  public init(Scope: Swift.String?, AccessToken: Swift.String?, RefreshToken: Swift.String?, ExpiresIn: Swift.Int?, TokenType: Swift.String?)
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case Scope
+    case AccessToken
+    case RefreshToken
+    case ExpiresIn
+    case TokenType
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct UserObject : Swift.Decodable {
+  public var UserKey: Swift.String?
+  public var UserId: Swift.String?
+  public var Salutation: Swift.String?
+  public var FirstName: Swift.String?
+  public var LastName: Swift.String?
+  public var Email: Swift.String?
+  public var MobileNo: Swift.String?
+  public var NIC: Swift.String
+  public var Passport: Swift.String
+  public var Image: Swift.String?
+  public init(UserKey: Swift.String?, UserId: Swift.String?, Salutation: Swift.String?, FirstName: Swift.String?, LastName: Swift.String?, Email: Swift.String?, MobileNo: Swift.String?, NIC: Swift.String, Passport: Swift.String, Image: Swift.String?)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Password : Swift.Decodable {
+  public var requiredLength: Swift.Int
+  public var requiredUniqueChars: Swift.Int
+  public var requireDigit: Swift.Bool
+  public var requireNonAlphanumeric: Swift.Bool
+  public var requireUppercase: Swift.Bool
+  public var requireLowercase: Swift.Bool
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum AuthXException : Swift.Error {
+  case SecurityException(Swift.String)
+  case ContentException(Swift.String)
+  case DeviceException(Swift.String)
+  case NoConnectivityException(Swift.String)
+  public var description: Swift.String {
+    get
+  }
+  public var errorCode: Swift.String {
+    get
+  }
+}
+public typealias actionHandler = (AuthXSDK.AuthXResult<Swift.String>) -> ()
+public typealias resultHandler = (AuthXSDK.AuthXResult<AuthXSDK.Container>) -> ()
+public typealias cancelResultHandler = (AuthXSDK.AuthXResult<Swift.String>) -> ()
+public struct Container {
+  public let model: any Swift.Decodable
+}
+public struct SignInResponse : Swift.Decodable {
+  public var signInStatus: AuthXSDK.SigninStatus?
+  public var securityLevel: AuthXSDK.SecurityLevel?
+  public init(signInStatus: AuthXSDK.SigninStatus?, securityLevel: AuthXSDK.SecurityLevel?)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SecurityLevel : Swift.Decodable {
+  public var strongBox: AuthXSDK.StrongBox?
+  public var trustedEnvironment: AuthXSDK.TrustedEnvironment?
+  public var software: AuthXSDK.Software?
+  public init(strongBox: AuthXSDK.StrongBox? = nil, trustedEnvironment: AuthXSDK.TrustedEnvironment? = nil, software: AuthXSDK.Software? = nil)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct StrongBox : Swift.Decodable {
+  public var active: Swift.Bool
+  public var biometricStrong: Swift.Bool
+  public var deviceCredential: Swift.Bool
+  public init(active: Swift.Bool, biometricStrong: Swift.Bool, deviceCredential: Swift.Bool)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TrustedEnvironment : Swift.Decodable {
+  public var active: Swift.Bool
+  public var biometricStrong: Swift.Bool
+  public var deviceCredential: Swift.Bool
+  public init(active: Swift.Bool, biometricStrong: Swift.Bool, deviceCredential: Swift.Bool)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Software : Swift.Decodable {
+  public var active: Swift.Bool
+  public var biometricStrong: Swift.Bool
+  public var deviceCredential: Swift.Bool
+  public init(active: Swift.Bool, biometricStrong: Swift.Bool, deviceCredential: Swift.Bool)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum SigninStatus : Swift.Int, Swift.Decodable {
+  case Success
+  case AlreadySigned
+  case Error
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum AuthenticateType : Swift.Int, Swift.Encodable {
+  case Credentials
+  case Key
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct ResetPasswordResponse : Swift.Decodable {
+  public var status: AuthXSDK.PasswordChangeStatus?
+  public var error: Swift.String?
+  public init(status: AuthXSDK.PasswordChangeStatus? = nil, error: Swift.String?)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GenerateSoftTokenResponse : Swift.Decodable {
+  public var otp: Swift.String?
+  public var expirationDateTime: Swift.String?
+  public var expireInSeconds: Swift.Int?
+  public init(otp: Swift.String?, expirationDateTime: Swift.String?, expireInSeconds: Swift.Int?)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum AuthXStatusCodes {
+  public static let SUCCESS: Swift.Int
+  public static let INTERNAL_ERROR: Swift.Int
+  public static let CANCELED: Swift.Int
+  public static let EMPTY_QR: Swift.Int
+  public static let INVALID_QR: Swift.Int
+  public static let QR_TIMEOUT: Swift.Int
+}
+public struct ValidateSMSOTPResponse : Swift.Decodable {
+  public var status: Swift.Bool
+  public var reason: AuthXSDK.OTPReason
+  public init(status: Swift.Bool, reason: AuthXSDK.OTPReason)
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case status
+    case reason
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum OTPReason : Swift.Int, Swift.Decodable {
+  case Success
+  case Invalid
+  case Expire
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct AuthXSDKClientInfo {
+  public var basicToken: Swift.String
+  public var clientSerial: Swift.String
+  public init(basicToken: Swift.String, clientSerial: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class AuthXResult<T> {
+  public var state: Swift.Bool
+  public func getData() -> T?
+  public func getStatusCode() -> Swift.Int?
+  public var error: Swift.String?
+  public var errorCode: Swift.String?
+  public var errorCodeUnique: Swift.String?
+  public var errorDescription: Swift.String?
+  @objc deinit
+}
+public struct UserInfo {
+  public var userID: Swift.String
+  public var userPassword: Swift.String
+  public var appVersion: Swift.String
+  public var cleanSession: Swift.Bool
+  public var dateTime: Swift.String
+  public var authType: AuthXSDK.AuthenticateType
+  public init(userID: Swift.String, userPassword: Swift.String, appVersion: Swift.String, cleanSession: Swift.Bool, dateTime: Swift.String, authType: AuthXSDK.AuthenticateType)
+}
+public struct PasswordChangeInfo {
+  public var userPassword: Swift.String
+  public var newPassword: Swift.String
+  public init(userPassword: Swift.String, newPassword: Swift.String)
+}
+public struct AuthenticatorInfo {
+  public var smsOTP: Swift.Bool
+  public var softToken: Swift.Bool
+  public var securePush: Swift.Bool
+  public init(smsOTP: Swift.Bool, softToken: Swift.Bool, securePush: Swift.Bool)
+}
+public enum MFAType : Swift.Int, Swift.Encodable {
+  case Push
+  case Token
+  case Sms
+  case none
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension AuthXSDK.RulesMode : Swift.Equatable {}
+extension AuthXSDK.RulesMode : Swift.Hashable {}
+extension AuthXSDK.RulesMode : Swift.RawRepresentable {}
+extension AuthXSDK.AuthInfoResponse.CodingKeys : Swift.Equatable {}
+extension AuthXSDK.AuthInfoResponse.CodingKeys : Swift.Hashable {}
+extension AuthXSDK.AuthInfoResponse.CodingKeys : Swift.RawRepresentable {}
+extension AuthXSDK.UserMFAStatus.CodingKeys : Swift.Equatable {}
+extension AuthXSDK.UserMFAStatus.CodingKeys : Swift.Hashable {}
+extension AuthXSDK.UserMFAStatus.CodingKeys : Swift.RawRepresentable {}
+extension AuthXSDK.AuthenticationMode : Swift.Equatable {}
+extension AuthXSDK.AuthenticationMode : Swift.Hashable {}
+extension AuthXSDK.AuthenticationMode : Swift.RawRepresentable {}
+extension AuthXSDK.AuthenticationInfo : Swift.Equatable {}
+extension AuthXSDK.AuthenticationInfo : Swift.Hashable {}
+extension AuthXSDK.AuthenticationInfo : Swift.RawRepresentable {}
+extension AuthXSDK.PasswordChangeStatus : Swift.Equatable {}
+extension AuthXSDK.PasswordChangeStatus : Swift.Hashable {}
+extension AuthXSDK.PasswordChangeStatus : Swift.RawRepresentable {}
+extension AuthXSDK.LoginResponse.CodingKeys : Swift.Equatable {}
+extension AuthXSDK.LoginResponse.CodingKeys : Swift.Hashable {}
+extension AuthXSDK.LoginResponse.CodingKeys : Swift.RawRepresentable {}
+extension AuthXSDK.LoginStatus : Swift.Equatable {}
+extension AuthXSDK.LoginStatus : Swift.Hashable {}
+extension AuthXSDK.LoginStatus : Swift.RawRepresentable {}
+extension AuthXSDK.Token.CodingKeys : Swift.Equatable {}
+extension AuthXSDK.Token.CodingKeys : Swift.Hashable {}
+extension AuthXSDK.Token.CodingKeys : Swift.RawRepresentable {}
+extension AuthXSDK.SigninStatus : Swift.Equatable {}
+extension AuthXSDK.SigninStatus : Swift.Hashable {}
+extension AuthXSDK.SigninStatus : Swift.RawRepresentable {}
+extension AuthXSDK.AuthenticateType : Swift.Equatable {}
+extension AuthXSDK.AuthenticateType : Swift.Hashable {}
+extension AuthXSDK.AuthenticateType : Swift.RawRepresentable {}
+extension AuthXSDK.ValidateSMSOTPResponse.CodingKeys : Swift.Equatable {}
+extension AuthXSDK.ValidateSMSOTPResponse.CodingKeys : Swift.Hashable {}
+extension AuthXSDK.ValidateSMSOTPResponse.CodingKeys : Swift.RawRepresentable {}
+extension AuthXSDK.OTPReason : Swift.Equatable {}
+extension AuthXSDK.OTPReason : Swift.Hashable {}
+extension AuthXSDK.OTPReason : Swift.RawRepresentable {}
+extension AuthXSDK.MFAType : Swift.Equatable {}
+extension AuthXSDK.MFAType : Swift.Hashable {}
+extension AuthXSDK.MFAType : Swift.RawRepresentable {}
