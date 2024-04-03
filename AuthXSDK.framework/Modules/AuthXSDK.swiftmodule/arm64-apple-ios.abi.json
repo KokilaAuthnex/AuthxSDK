@@ -4965,13 +4965,6 @@
       },
       {
         "kind": "Import",
-        "name": "OSLog",
-        "printedName": "OSLog",
-        "declKind": "Import",
-        "moduleName": "AuthXSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -21054,644 +21047,644 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 256,
+      "offset": 243,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "StringLiteral",
-      "offset": 1872,
+      "offset": 1859,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 2818,
+      "offset": 2805,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 3496,
+      "offset": 3483,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 4422,
+      "offset": 4409,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 4906,
+      "offset": 4893,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 5691,
+      "offset": 5678,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 5710,
+      "offset": 5697,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 5851,
+      "offset": 5838,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 6204,
+      "offset": 6191,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 6297,
+      "offset": 6284,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 7227,
+      "offset": 7214,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 7246,
+      "offset": 7233,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 7394,
+      "offset": 7381,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 7599,
+      "offset": 7586,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 7706,
+      "offset": 7693,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 8648,
+      "offset": 8635,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 8941,
+      "offset": 8928,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 9492,
+      "offset": 9479,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 9926,
+      "offset": 9913,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 9945,
+      "offset": 9932,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 10103,
+      "offset": 10090,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 10235,
+      "offset": 10222,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 10441,
+      "offset": 10428,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 10571,
+      "offset": 10558,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 10944,
+      "offset": 10931,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 11483,
+      "offset": 11470,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 11502,
+      "offset": 11489,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 11655,
+      "offset": 11642,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 11698,
+      "offset": 11685,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 12010,
+      "offset": 11997,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 12370,
+      "offset": 12357,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 12501,
+      "offset": 12488,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 12707,
+      "offset": 12694,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 12837,
+      "offset": 12824,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "StringLiteral",
-      "offset": 13256,
+      "offset": 13243,
       "length": 6,
       "value": "\"1234\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 13277,
+      "offset": 13264,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "StringLiteral",
-      "offset": 13451,
+      "offset": 13438,
       "length": 5,
       "value": "\"2FA\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 13705,
+      "offset": 13692,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 13723,
+      "offset": 13710,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 13871,
+      "offset": 13858,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 13919,
+      "offset": 13906,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 14029,
+      "offset": 14016,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 14143,
+      "offset": 14130,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 14349,
+      "offset": 14336,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 14479,
+      "offset": 14466,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 14669,
+      "offset": 14656,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "StringLiteral",
-      "offset": 14884,
+      "offset": 14871,
       "length": 6,
       "value": "\"1234\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 14905,
+      "offset": 14892,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "StringLiteral",
-      "offset": 15079,
+      "offset": 15066,
       "length": 5,
       "value": "\"2FA\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 15339,
+      "offset": 15326,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 15358,
+      "offset": 15345,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 15512,
+      "offset": 15499,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 15560,
+      "offset": 15547,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 15670,
+      "offset": 15657,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 15784,
+      "offset": 15771,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 15990,
+      "offset": 15977,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 16120,
+      "offset": 16107,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 16344,
+      "offset": 16331,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 16656,
+      "offset": 16643,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 16897,
+      "offset": 16884,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 17430,
+      "offset": 17417,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 17981,
+      "offset": 17968,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 18920,
+      "offset": 18907,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 18939,
+      "offset": 18926,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 19094,
+      "offset": 19081,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 19212,
+      "offset": 19199,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 19969,
+      "offset": 19956,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 19988,
+      "offset": 19975,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 20144,
+      "offset": 20131,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 20364,
+      "offset": 20351,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 20471,
+      "offset": 20458,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 21242,
+      "offset": 21229,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 21261,
+      "offset": 21248,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 21414,
+      "offset": 21401,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 21614,
+      "offset": 21601,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 21755,
+      "offset": 21742,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 22525,
+      "offset": 22512,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 22544,
+      "offset": 22531,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 22694,
+      "offset": 22681,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 22899,
+      "offset": 22886,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 23042,
+      "offset": 23029,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 23853,
+      "offset": 23840,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 23872,
+      "offset": 23859,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 24022,
+      "offset": 24009,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 24227,
+      "offset": 24214,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 24334,
+      "offset": 24321,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 25132,
+      "offset": 25119,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 25151,
+      "offset": 25138,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 25298,
+      "offset": 25285,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 25404,
+      "offset": 25391,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 25410,
+      "offset": 25397,
       "length": 4,
       "value": "true"
     },
@@ -24624,72 +24617,72 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 378,
+      "offset": 371,
       "length": 14,
       "value": "\"aunexapi.com\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 431,
+      "offset": 424,
       "length": 31,
       "value": "\"hnbauthenticatorapiuat.hnb.lk\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 508,
+      "offset": 501,
       "length": 28,
       "value": "\"hnbauthenticatorapi.hnb.lk\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 881,
+      "offset": 874,
       "length": 14,
       "value": "\"authaunexapi\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 934,
+      "offset": 927,
       "length": 9,
       "value": "\"hnb_uat\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 982,
       "length": 10,
       "value": "\"hnb_prod\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1135,
+      "offset": 1128,
       "length": 14,
       "value": "\"aunexapi.com\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1188,
+      "offset": 1181,
       "length": 31,
       "value": "\"hnbauthenticatorapiuat.hnb.lk\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1265,
+      "offset": 1258,
       "length": 28,
       "value": "\"hnbauthenticatorapi.hnb.lk\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/AppSettings\/AppSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1370,
-      "length": 4,
-      "value": "true"
+      "offset": 1363,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Helper\/AppUserDefaults.swift",
