@@ -7,6 +7,7 @@ import Alamofire
 import CertificateSigningRequest
 import Combine
 import DeveloperToolsSupport
+import FirebaseCrashlytics
 import Foundation
 import JOSESwift
 import LocalAuthentication

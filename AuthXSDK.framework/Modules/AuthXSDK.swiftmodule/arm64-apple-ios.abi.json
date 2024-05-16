@@ -3184,6 +3184,13 @@
       },
       {
         "kind": "Import",
+        "name": "FirebaseCrashlytics",
+        "printedName": "FirebaseCrashlytics",
+        "declKind": "Import",
+        "moduleName": "AuthXSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -18849,238 +18856,280 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 507,
+      "offset": 534,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 833,
+      "offset": 860,
       "length": 38,
       "value": "\"Access your password on the keychain\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 923,
+      "offset": 950,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1650,
+      "offset": 1677,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 4107,
+      "offset": 4134,
       "length": 91,
       "value": "\"Error creating keys occured: \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 4175,
+      "offset": 4202,
       "length": 1,
       "value": "\", keys weren't created\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 4737,
+      "offset": 4764,
       "length": 58,
       "value": "\"Error getting publicKey fron keychain occured: \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 4794,
+      "offset": 4821,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 7666,
+      "offset": 7446,
+      "length": 21,
+      "value": "\"CSR FOR SECURE PUSH\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 7758,
+      "length": 22,
+      "value": "\"CSR KEYS NOT CREATED\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 7820,
       "length": 21,
       "value": "\"CSR creation issues\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 7787,
+      "offset": 7900,
+      "length": 18,
+      "value": "\"CSR KEYS CREATED\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 8008,
       "length": 27,
       "value": "\"CertificateSigningRequest\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 7834,
+      "offset": 8055,
       "length": 9,
       "value": "\"Authnex\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 7867,
+      "offset": 8088,
       "length": 9,
       "value": "\"Authnex\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 7891,
+      "offset": 8112,
       "length": 10,
       "value": "\"SriLanka\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 7924,
+      "offset": 8145,
       "length": 4,
       "value": "\"WP\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 7944,
+      "offset": 8165,
       "length": 16,
       "value": "\"Baththaramulla\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 8195,
+      "offset": 8416,
       "length": 33,
       "value": "\"CSR string no header and footer\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 8459,
+      "offset": 8680,
       "length": 35,
       "value": "\"CSR string with header and footer\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 8835,
+      "offset": 9150,
       "length": 30,
       "value": "\"GET KEYS TAG - \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 8864,
+      "offset": 9179,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 9264,
+      "offset": 9579,
       "length": 82,
       "value": "\"PRIVATE_KEY_STATUS - \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 9305,
+      "offset": 9620,
       "length": 1,
       "value": "\"\/ PUBLIC_KEY_STATUS - \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 9345,
+      "offset": 9660,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 10479,
+      "offset": 10537,
+      "length": 28,
+      "value": "\"CSR FOR COMMON CERTIFICATE\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 10866,
+      "length": 22,
+      "value": "\"CSR KEYS NOT CREATED\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 10928,
       "length": 21,
       "value": "\"CSR creation issues\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 10600,
+      "offset": 11008,
+      "length": 18,
+      "value": "\"CSR KEYS CREATED\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11116,
       "length": 27,
       "value": "\"CertificateSigningRequest\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 10647,
+      "offset": 11163,
       "length": 9,
       "value": "\"Authnex\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 10680,
+      "offset": 11196,
       "length": 9,
       "value": "\"Authnex\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 10704,
+      "offset": 11220,
       "length": 10,
       "value": "\"SriLanka\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 10737,
+      "offset": 11253,
       "length": 4,
       "value": "\"WP\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 10757,
+      "offset": 11273,
       "length": 16,
       "value": "\"Baththaramulla\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 11008,
+      "offset": 11524,
       "length": 33,
       "value": "\"CSR string no header and footer\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 11272,
+      "offset": 11788,
       "length": 35,
       "value": "\"CSR string with header and footer\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 11976,
+      "offset": 12586,
       "length": 82,
       "value": "\"PRIVATE_KEY_STATUS - \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 12017,
+      "offset": 12627,
       "length": 1,
       "value": "\"\/ PUBLIC_KEY_STATUS - \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/SecureEnclaveKeyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 12057,
+      "offset": 12667,
       "length": 2,
       "value": "\"\""
     },
