@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9QWEH8S22J4gwdesJs8jc2+kImQ=
+		Udq1U5SRl7WLOmIpK8pN3fafYYk=
 		</data>
 		<key>Modules/AuthXSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		pCc9lBn3/NnCLHn0foduYIocQvs=
+		BJp4vI5RDHMBp7nhv0fzE1nhBOs=
 		</data>
 		<key>Modules/AuthXSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/AuthXSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		NK/t7g+/3nSqMHKOXtTXaBwVrlo=
+		7NGCliZd3q6e659WmKoL+t1M1vY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -84,7 +84,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1VTqUStXNn7WRVBun/p57pYryevhWHbHlyHBL78CEvQ=
+			wQt/DuaPHf2n/eL+bxRcm8QLXEsXcJpwAbKM1PeepaI=
 			</data>
 		</dict>
 		<key>Modules/AuthXSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OUg9UZJro+ujhiNi0x+cDMFrLMbbk82f5MhBzqslthU=
+			0jqR60ajJifBzzrK5ZWd9fhS/b7fcAkc0uokNFykznA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
