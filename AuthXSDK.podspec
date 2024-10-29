@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.dependency 'SwCrypt'
   s.dependency 'SwiftKeychainWrapper'
   s.dependency 'AlamofireImage'
-  s.dependency 'CertificateSigningRequest', 
+  s.dependency 'CertificateSigningRequest'
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
 
