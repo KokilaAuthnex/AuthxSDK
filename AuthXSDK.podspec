@@ -13,14 +13,14 @@ Pod::Spec.new do |s|
 
   s.swift_version = '4.0'
 
-  s.dependency 'Alamofire',
+  s.dependency 'Alamofire'
   s.dependency 'JOSESwift', '2.4.0'
   s.dependency 'SwiftyJSON', '~> 4.0'
-  s.dependency 'SwCrypt',
-  s.dependency 'SwiftKeychainWrapper',
+  s.dependency 'SwCrypt'
+  s.dependency 'SwiftKeychainWrapper'
   s.dependency 'AlamofireImage'
   s.dependency 'CertificateSigningRequest', 
-  s.dependency 'RxSwift',
-  s.dependency 'RxCocoa',
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
 
 end
