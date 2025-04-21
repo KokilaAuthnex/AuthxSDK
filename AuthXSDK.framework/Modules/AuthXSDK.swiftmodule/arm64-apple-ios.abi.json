@@ -3312,13 +3312,6 @@
       },
       {
         "kind": "Import",
-        "name": "FirebaseCrashlytics",
-        "printedName": "FirebaseCrashlytics",
-        "declKind": "Import",
-        "moduleName": "AuthXSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4519,6 +4512,66 @@
             "declKind": "Func",
             "usr": "s:8AuthXSDK0A4XSdkC20validateMobileSMSOTP3otp9tokenInfo10completionySS_AA05TokenI0VyAA0A7XResultCyAA9ContainerVGctKF",
             "mangledName": "$s8AuthXSDK0A4XSdkC20validateMobileSMSOTP3otp9tokenInfo10completionySS_AA05TokenI0VyAA0A7XResultCyAA9ContainerVGctKF",
+            "moduleName": "AuthXSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateQR",
+            "printedName": "validateQR(code:tokenInfo:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TokenInfo",
+                "printedName": "AuthXSDK.TokenInfo",
+                "usr": "s:8AuthXSDK9TokenInfoV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AuthXSDK.AuthXResult<AuthXSDK.Container>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthXResult",
+                    "printedName": "AuthXSDK.AuthXResult<AuthXSDK.Container>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Container",
+                        "printedName": "AuthXSDK.Container",
+                        "usr": "s:8AuthXSDK9ContainerV"
+                      }
+                    ],
+                    "usr": "s:8AuthXSDK0A7XResultC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AuthXSDK0A4XSdkC10validateQR4code9tokenInfo10completionySS_AA05TokenH0VyAA0A7XResultCyAA9ContainerVGctKF",
+            "mangledName": "$s8AuthXSDK0A4XSdkC10validateQR4code9tokenInfo10completionySS_AA05TokenH0VyAA0A7XResultCyAA9ContainerVGctKF",
             "moduleName": "AuthXSDK",
             "declAttributes": [
               "Final",
@@ -18461,56 +18514,56 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/NetworkConstants\/HTTPConstants.swift",
       "kind": "StringLiteral",
-      "offset": 413,
+      "offset": 416,
       "length": 6,
       "value": "\"Auth\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/NetworkConstants\/HTTPConstants.swift",
       "kind": "StringLiteral",
-      "offset": 484,
+      "offset": 487,
       "length": 7,
       "value": "\"basic\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/NetworkConstants\/HTTPConstants.swift",
       "kind": "StringLiteral",
-      "offset": 526,
+      "offset": 529,
       "length": 8,
       "value": "\"bearer\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/NetworkConstants\/HTTPConstants.swift",
       "kind": "StringLiteral",
-      "offset": 599,
+      "offset": 602,
       "length": 12,
       "value": "\"X-SSL-Cert\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/NetworkConstants\/HTTPConstants.swift",
       "kind": "StringLiteral",
-      "offset": 650,
+      "offset": 653,
       "length": 12,
       "value": "\"User-Agent\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/NetworkConstants\/HTTPConstants.swift",
       "kind": "StringLiteral",
-      "offset": 701,
+      "offset": 704,
       "length": 77,
       "value": "\"AuthXSDK, iOS, \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/NetworkConstants\/HTTPConstants.swift",
       "kind": "StringLiteral",
-      "offset": 742,
+      "offset": 745,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/NetworkConstants\/HTTPConstants.swift",
       "kind": "StringLiteral",
-      "offset": 777,
+      "offset": 780,
       "length": 1,
       "value": "\"\""
     },
@@ -20099,7 +20152,7 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Controllers\/AuthXSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 9069,
+      "offset": 9733,
       "length": 2,
       "value": "14"
     },
@@ -20113,14 +20166,14 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "StringLiteral",
-      "offset": 1859,
+      "offset": 1945,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 16310,
+      "offset": 16392,
       "length": 4,
       "value": "true"
     },
@@ -20309,7 +20362,7 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Helper\/GlobalVariables.swift",
       "kind": "StringLiteral",
-      "offset": 406,
+      "offset": 430,
       "length": 2,
       "value": "\"\""
     },
@@ -20386,7 +20439,7 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Crypto\/JWSHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 5609,
+      "offset": 5656,
       "length": 4,
       "value": "true"
     },
