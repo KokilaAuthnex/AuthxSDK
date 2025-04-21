@@ -7016,6 +7016,43 @@
           },
           {
             "kind": "Var",
+            "name": "Expired",
+            "printedName": "Expired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AuthXSDK.LoginStatus.Type) -> AuthXSDK.LoginStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginStatus",
+                    "printedName": "AuthXSDK.LoginStatus",
+                    "usr": "s:8AuthXSDK11LoginStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AuthXSDK.LoginStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginStatus",
+                        "printedName": "AuthXSDK.LoginStatus",
+                        "usr": "s:8AuthXSDK11LoginStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AuthXSDK11LoginStatusO7ExpiredyA2CmF",
+            "mangledName": "$s8AuthXSDK11LoginStatusO7ExpiredyA2CmF",
+            "moduleName": "AuthXSDK"
+          },
+          {
+            "kind": "Var",
             "name": "Undefined",
             "printedName": "Undefined",
             "children": [
@@ -20313,49 +20350,56 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/LoginResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 1401,
+      "offset": 1399,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/LoginResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1423,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/LoginResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4036,
+      "offset": 4058,
       "length": 16,
       "value": "\"RequiredLength\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/LoginResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4088,
+      "offset": 4110,
       "length": 21,
       "value": "\"RequiredUniqueChars\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/LoginResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4138,
+      "offset": 4160,
       "length": 14,
       "value": "\"RequireDigit\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/LoginResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4191,
+      "offset": 4213,
       "length": 24,
       "value": "\"RequireNonAlphanumeric\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/LoginResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4248,
+      "offset": 4270,
       "length": 18,
       "value": "\"RequireUppercase\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/LoginResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4299,
+      "offset": 4321,
       "length": 18,
       "value": "\"RequireLowercase\""
     },

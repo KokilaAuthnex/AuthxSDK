@@ -204,6 +204,7 @@ public enum LoginStatus : Swift.Int, Swift.Decodable {
   case VersionUpdateRequired
   case BiometricLoginDisabled
   case R2FaNChangePWD
+  case Expired
   case Undefined
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
