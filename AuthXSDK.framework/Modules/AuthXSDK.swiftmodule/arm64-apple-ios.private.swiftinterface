@@ -129,6 +129,7 @@ public enum PasswordChangeStatus : Swift.Int, Swift.Decodable {
   case WrongCurrentPassword
   case InvalidUser
   case Failed
+  case PreviouslyUsedPassword
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {

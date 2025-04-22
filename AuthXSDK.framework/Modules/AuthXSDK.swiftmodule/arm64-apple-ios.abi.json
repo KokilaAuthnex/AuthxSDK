@@ -3804,6 +3804,43 @@
             "moduleName": "AuthXSDK"
           },
           {
+            "kind": "Var",
+            "name": "PreviouslyUsedPassword",
+            "printedName": "PreviouslyUsedPassword",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AuthXSDK.PasswordChangeStatus.Type) -> AuthXSDK.PasswordChangeStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PasswordChangeStatus",
+                    "printedName": "AuthXSDK.PasswordChangeStatus",
+                    "usr": "s:8AuthXSDK20PasswordChangeStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AuthXSDK.PasswordChangeStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PasswordChangeStatus",
+                        "printedName": "AuthXSDK.PasswordChangeStatus",
+                        "usr": "s:8AuthXSDK20PasswordChangeStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AuthXSDK20PasswordChangeStatusO014PreviouslyUsedC0yA2CmF",
+            "mangledName": "$s8AuthXSDK20PasswordChangeStatusO014PreviouslyUsedC0yA2CmF",
+            "moduleName": "AuthXSDK"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -20164,6 +20201,13 @@
       "offset": 651,
       "length": 1,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ChangePasswordResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 687,
+      "length": 1,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Request\/ResetPasswordRequest.swift",
