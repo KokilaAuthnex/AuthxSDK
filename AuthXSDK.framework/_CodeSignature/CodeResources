@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/AuthXSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		TcEDWMY1JBuOtxy/omCR44MXTf0=
+		bnHLY1nZ96TtPBihW1uShmeo4ig=
 		</data>
 		<key>Modules/AuthXSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		vQhdTVyR8UR663kwYz9kA9t8n7s=
+		QWtnh1oBHaYTPyg+ln7OdbuEUVU=
 		</data>
 		<key>Modules/AuthXSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/AuthXSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		vQhdTVyR8UR663kwYz9kA9t8n7s=
+		QWtnh1oBHaYTPyg+ln7OdbuEUVU=
 		</data>
 		<key>Modules/AuthXSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		j+lNKhsBG4dZVOPk9RYYobHdHyM=
+		SuAcsQjKPfbg5rCQrN8IpdJUqog=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -48,17 +48,17 @@
 		<data>
 		KW9PMtnMbZSTMV5dHrNchOd0EQQ=
 		</data>
-		<key>authnex.der</key>
+		<key>hnb.lk.der</key>
 		<data>
-		fsLqK0gOL88fO7uN4ogGq4+W1Gc=
+		/fsee/t3hZv8AuL6HvWMqyzkpIs=
 		</data>
 		<key>hnb_prod.der</key>
 		<data>
-		dV5sVRvXSKA8Wxn6DuaTdzCToBY=
+		+dsmsnuBxRXAYN32uB17HOxOGtc=
 		</data>
 		<key>hnb_uat.der</key>
 		<data>
-		dV5sVRvXSKA8Wxn6DuaTdzCToBY=
+		+dsmsnuBxRXAYN32uB17HOxOGtc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -88,14 +88,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tIacuRrHl4skS3VgLs02S0ukaeml9Pv1Jxj/JhItffQ=
+			sNPyhBngE9uHvrp7vu+oPURbBuQt+5fXsJN7PiA+y4E=
 			</data>
 		</dict>
 		<key>Modules/AuthXSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iMTDf6VEZ/ej98P0u/v0Z4b9O8rTxCc69xiCUsRyst8=
+			8z86PWWbflOvnel1RbJbq8qrfeJyaaiuXZ1RyKJY6kM=
 			</data>
 		</dict>
 		<key>Modules/AuthXSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iMTDf6VEZ/ej98P0u/v0Z4b9O8rTxCc69xiCUsRyst8=
+			8z86PWWbflOvnel1RbJbq8qrfeJyaaiuXZ1RyKJY6kM=
 			</data>
 		</dict>
 		<key>Modules/AuthXSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OI3B0pePpCuwBBh7371TOQh49ixoVt7r8Q/sBBf6sAQ=
+			W/OyD77tfV0BJE8U5gAk/D3suufxdXO/L19BElwSrT4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -133,25 +133,25 @@
 			WvxG7VCzanv1wdJh2CEZc6kCynpfyguGL7OVQd5kkT4=
 			</data>
 		</dict>
-		<key>authnex.der</key>
+		<key>hnb.lk.der</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/60tj/+Ba6sZZZxMUpNa7ZV6H0jc/WWNRkIAx5byp2c=
+			mJPSaqA9mVNZgigB9u0j/joDBMhLXxj1BJoz6G5wuLI=
 			</data>
 		</dict>
 		<key>hnb_prod.der</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W+rBqTcK6mksygXAWolAf5SK1RHHLvEIz6Yo39tQOSQ=
+			vGMN3bW6/m6cVd8CSAMzb+R9pyQW56e9vUdDQX6XSyY=
 			</data>
 		</dict>
 		<key>hnb_uat.der</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W+rBqTcK6mksygXAWolAf5SK1RHHLvEIz6Yo39tQOSQ=
+			vGMN3bW6/m6cVd8CSAMzb+R9pyQW56e9vUdDQX6XSyY=
 			</data>
 		</dict>
 	</dict>
