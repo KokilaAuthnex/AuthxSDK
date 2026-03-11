@@ -16,6 +16,1421 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ValidateOTPResponse",
+        "printedName": "ValidateOTPResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AuthXSDK19ValidateOTPResponseV6statusSbvp",
+            "mangledName": "$s8AuthXSDK19ValidateOTPResponseV6statusSbvp",
+            "moduleName": "AuthXSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV6statusSbvg",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV6statusSbvg",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV6statusSbvs",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV6statusSbvs",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV6statusSbvM",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV6statusSbvM",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reason",
+            "printedName": "reason",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OTPReason",
+                "printedName": "AuthXSDK.OTPReason",
+                "usr": "s:8AuthXSDK9OTPReasonO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AuthXSDK19ValidateOTPResponseV6reasonAA9OTPReasonOvp",
+            "mangledName": "$s8AuthXSDK19ValidateOTPResponseV6reasonAA9OTPReasonOvp",
+            "moduleName": "AuthXSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPReason",
+                    "printedName": "AuthXSDK.OTPReason",
+                    "usr": "s:8AuthXSDK9OTPReasonO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV6reasonAA9OTPReasonOvg",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV6reasonAA9OTPReasonOvg",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPReason",
+                    "printedName": "AuthXSDK.OTPReason",
+                    "usr": "s:8AuthXSDK9OTPReasonO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV6reasonAA9OTPReasonOvs",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV6reasonAA9OTPReasonOvs",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV6reasonAA9OTPReasonOvM",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV6reasonAA9OTPReasonOvM",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "otpMode",
+            "printedName": "otpMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AuthXSDK.OTPMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPMode",
+                    "printedName": "AuthXSDK.OTPMode",
+                    "usr": "s:8AuthXSDK7OTPModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AuthXSDK19ValidateOTPResponseV7otpModeAA7OTPModeOSgvp",
+            "mangledName": "$s8AuthXSDK19ValidateOTPResponseV7otpModeAA7OTPModeOSgvp",
+            "moduleName": "AuthXSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AuthXSDK.OTPMode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPMode",
+                        "printedName": "AuthXSDK.OTPMode",
+                        "usr": "s:8AuthXSDK7OTPModeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV7otpModeAA7OTPModeOSgvg",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV7otpModeAA7OTPModeOSgvg",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AuthXSDK.OTPMode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPMode",
+                        "printedName": "AuthXSDK.OTPMode",
+                        "usr": "s:8AuthXSDK7OTPModeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV7otpModeAA7OTPModeOSgvs",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV7otpModeAA7OTPModeOSgvs",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV7otpModeAA7OTPModeOSgvM",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV7otpModeAA7OTPModeOSgvM",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(status:reason:otpMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ValidateOTPResponse",
+                "printedName": "AuthXSDK.ValidateOTPResponse",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OTPReason",
+                "printedName": "AuthXSDK.OTPReason",
+                "usr": "s:8AuthXSDK9OTPReasonO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OTPMode",
+                "printedName": "AuthXSDK.OTPMode",
+                "usr": "s:8AuthXSDK7OTPModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AuthXSDK19ValidateOTPResponseV6status6reason7otpModeACSb_AA9OTPReasonOAA7OTPModeOtcfc",
+            "mangledName": "$s8AuthXSDK19ValidateOTPResponseV6status6reason7otpModeACSb_AA9OTPReasonOAA7OTPModeOtcfc",
+            "moduleName": "AuthXSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CodingKeys",
+            "printedName": "CodingKeys",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "status",
+                "printedName": "status",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AuthXSDK.ValidateOTPResponse.CodingKeys.Type) -> AuthXSDK.ValidateOTPResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys",
+                        "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys",
+                            "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO6statusyA2EmF",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV10CodingKeysO6statusyA2EmF",
+                "moduleName": "AuthXSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "reason",
+                "printedName": "reason",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AuthXSDK.ValidateOTPResponse.CodingKeys.Type) -> AuthXSDK.ValidateOTPResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys",
+                        "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys",
+                            "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO6reasonyA2EmF",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV10CodingKeysO6reasonyA2EmF",
+                "moduleName": "AuthXSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "otpMode",
+                "printedName": "otpMode",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AuthXSDK.ValidateOTPResponse.CodingKeys.Type) -> AuthXSDK.ValidateOTPResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys",
+                        "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys",
+                            "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO7otpModeyA2EmF",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV10CodingKeysO7otpModeyA2EmF",
+                "moduleName": "AuthXSDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys",
+                        "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO8rawValueAESgSS_tcfc",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV10CodingKeysO8rawValueAESgSS_tcfc",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO8rawValueSSvp",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV10CodingKeysO8rawValueSSvp",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO8rawValueSSvg",
+                    "mangledName": "$s8AuthXSDK19ValidateOTPResponseV10CodingKeysO8rawValueSSvg",
+                    "moduleName": "AuthXSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "stringValue",
+                "printedName": "stringValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO11stringValueSSvp",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV10CodingKeysO11stringValueSSvp",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO11stringValueSSvg",
+                    "mangledName": "$s8AuthXSDK19ValidateOTPResponseV10CodingKeysO11stringValueSSvg",
+                    "moduleName": "AuthXSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(stringValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys",
+                        "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO11stringValueAESgSS_tcfc",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV10CodingKeysO11stringValueAESgSS_tcfc",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "intValue",
+                "printedName": "intValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO8intValueSiSgvp",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV10CodingKeysO8intValueSiSgvp",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO8intValueSiSgvg",
+                    "mangledName": "$s8AuthXSDK19ValidateOTPResponseV10CodingKeysO8intValueSiSgvg",
+                    "moduleName": "AuthXSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(intValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AuthXSDK.ValidateOTPResponse.CodingKeys",
+                        "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO8intValueAESgSi_tcfc",
+                "mangledName": "$s8AuthXSDK19ValidateOTPResponseV10CodingKeysO8intValueAESgSi_tcfc",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:8AuthXSDK19ValidateOTPResponseV10CodingKeysO",
+            "mangledName": "$s8AuthXSDK19ValidateOTPResponseV10CodingKeysO",
+            "moduleName": "AuthXSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CodingKey",
+                "printedName": "CodingKey",
+                "usr": "s:s9CodingKeyP",
+                "mangledName": "$ss9CodingKeyP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ValidateOTPResponse",
+                "printedName": "AuthXSDK.ValidateOTPResponse",
+                "usr": "s:8AuthXSDK19ValidateOTPResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AuthXSDK19ValidateOTPResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8AuthXSDK19ValidateOTPResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AuthXSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8AuthXSDK19ValidateOTPResponseV",
+        "mangledName": "$s8AuthXSDK19ValidateOTPResponseV",
+        "moduleName": "AuthXSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OTPReason",
+        "printedName": "OTPReason",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Success",
+            "printedName": "Success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AuthXSDK.OTPReason.Type) -> AuthXSDK.OTPReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPReason",
+                    "printedName": "AuthXSDK.OTPReason",
+                    "usr": "s:8AuthXSDK9OTPReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AuthXSDK.OTPReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPReason",
+                        "printedName": "AuthXSDK.OTPReason",
+                        "usr": "s:8AuthXSDK9OTPReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AuthXSDK9OTPReasonO7SuccessyA2CmF",
+            "mangledName": "$s8AuthXSDK9OTPReasonO7SuccessyA2CmF",
+            "moduleName": "AuthXSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "Invalid",
+            "printedName": "Invalid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AuthXSDK.OTPReason.Type) -> AuthXSDK.OTPReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPReason",
+                    "printedName": "AuthXSDK.OTPReason",
+                    "usr": "s:8AuthXSDK9OTPReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AuthXSDK.OTPReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPReason",
+                        "printedName": "AuthXSDK.OTPReason",
+                        "usr": "s:8AuthXSDK9OTPReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AuthXSDK9OTPReasonO7InvalidyA2CmF",
+            "mangledName": "$s8AuthXSDK9OTPReasonO7InvalidyA2CmF",
+            "moduleName": "AuthXSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "Expire",
+            "printedName": "Expire",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AuthXSDK.OTPReason.Type) -> AuthXSDK.OTPReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPReason",
+                    "printedName": "AuthXSDK.OTPReason",
+                    "usr": "s:8AuthXSDK9OTPReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AuthXSDK.OTPReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPReason",
+                        "printedName": "AuthXSDK.OTPReason",
+                        "usr": "s:8AuthXSDK9OTPReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AuthXSDK9OTPReasonO6ExpireyA2CmF",
+            "mangledName": "$s8AuthXSDK9OTPReasonO6ExpireyA2CmF",
+            "moduleName": "AuthXSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AuthXSDK.OTPReason?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPReason",
+                    "printedName": "AuthXSDK.OTPReason",
+                    "usr": "s:8AuthXSDK9OTPReasonO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AuthXSDK9OTPReasonO8rawValueACSgSi_tcfc",
+            "mangledName": "$s8AuthXSDK9OTPReasonO8rawValueACSgSi_tcfc",
+            "moduleName": "AuthXSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AuthXSDK9OTPReasonO8rawValueSivp",
+            "mangledName": "$s8AuthXSDK9OTPReasonO8rawValueSivp",
+            "moduleName": "AuthXSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK9OTPReasonO8rawValueSivg",
+                "mangledName": "$s8AuthXSDK9OTPReasonO8rawValueSivg",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8AuthXSDK9OTPReasonO",
+        "mangledName": "$s8AuthXSDK9OTPReasonO",
+        "moduleName": "AuthXSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OTPMode",
+        "printedName": "OTPMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Email",
+            "printedName": "Email",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AuthXSDK.OTPMode.Type) -> AuthXSDK.OTPMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPMode",
+                    "printedName": "AuthXSDK.OTPMode",
+                    "usr": "s:8AuthXSDK7OTPModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AuthXSDK.OTPMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPMode",
+                        "printedName": "AuthXSDK.OTPMode",
+                        "usr": "s:8AuthXSDK7OTPModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AuthXSDK7OTPModeO5EmailyA2CmF",
+            "mangledName": "$s8AuthXSDK7OTPModeO5EmailyA2CmF",
+            "moduleName": "AuthXSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "Device",
+            "printedName": "Device",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AuthXSDK.OTPMode.Type) -> AuthXSDK.OTPMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPMode",
+                    "printedName": "AuthXSDK.OTPMode",
+                    "usr": "s:8AuthXSDK7OTPModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AuthXSDK.OTPMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPMode",
+                        "printedName": "AuthXSDK.OTPMode",
+                        "usr": "s:8AuthXSDK7OTPModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AuthXSDK7OTPModeO6DeviceyA2CmF",
+            "mangledName": "$s8AuthXSDK7OTPModeO6DeviceyA2CmF",
+            "moduleName": "AuthXSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "SMS",
+            "printedName": "SMS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AuthXSDK.OTPMode.Type) -> AuthXSDK.OTPMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPMode",
+                    "printedName": "AuthXSDK.OTPMode",
+                    "usr": "s:8AuthXSDK7OTPModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AuthXSDK.OTPMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPMode",
+                        "printedName": "AuthXSDK.OTPMode",
+                        "usr": "s:8AuthXSDK7OTPModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AuthXSDK7OTPModeO3SMSyA2CmF",
+            "mangledName": "$s8AuthXSDK7OTPModeO3SMSyA2CmF",
+            "moduleName": "AuthXSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "SFT",
+            "printedName": "SFT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AuthXSDK.OTPMode.Type) -> AuthXSDK.OTPMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPMode",
+                    "printedName": "AuthXSDK.OTPMode",
+                    "usr": "s:8AuthXSDK7OTPModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AuthXSDK.OTPMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPMode",
+                        "printedName": "AuthXSDK.OTPMode",
+                        "usr": "s:8AuthXSDK7OTPModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AuthXSDK7OTPModeO3SFTyA2CmF",
+            "mangledName": "$s8AuthXSDK7OTPModeO3SFTyA2CmF",
+            "moduleName": "AuthXSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OTPMode",
+                "printedName": "AuthXSDK.OTPMode",
+                "usr": "s:8AuthXSDK7OTPModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OTPMode",
+                "printedName": "AuthXSDK.OTPMode",
+                "usr": "s:8AuthXSDK7OTPModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AuthXSDK7OTPModeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8AuthXSDK7OTPModeO2eeoiySbAC_ACtFZ",
+            "moduleName": "AuthXSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AuthXSDK7OTPModeO9hashValueSivp",
+            "mangledName": "$s8AuthXSDK7OTPModeO9hashValueSivp",
+            "moduleName": "AuthXSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK7OTPModeO9hashValueSivg",
+                "mangledName": "$s8AuthXSDK7OTPModeO9hashValueSivg",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AuthXSDK7OTPModeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8AuthXSDK7OTPModeO4hash4intoys6HasherVz_tF",
+            "moduleName": "AuthXSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OTPMode",
+                "printedName": "AuthXSDK.OTPMode",
+                "usr": "s:8AuthXSDK7OTPModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AuthXSDK7OTPModeO4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8AuthXSDK7OTPModeO4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AuthXSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8AuthXSDK7OTPModeO",
+        "mangledName": "$s8AuthXSDK7OTPModeO",
+        "moduleName": "AuthXSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AuthXSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "RulesMode",
         "printedName": "RulesMode",
         "children": [
@@ -1379,6 +2794,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -2112,6 +3534,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -3129,6 +4558,472 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "GenerateOTPResponse",
+        "printedName": "GenerateOTPResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "otp",
+            "printedName": "otp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AuthXSDK19GenerateOTPResponseV3otpSSSgvp",
+            "mangledName": "$s8AuthXSDK19GenerateOTPResponseV3otpSSSgvp",
+            "moduleName": "AuthXSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19GenerateOTPResponseV3otpSSSgvg",
+                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV3otpSSSgvg",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19GenerateOTPResponseV3otpSSSgvs",
+                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV3otpSSSgvs",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19GenerateOTPResponseV3otpSSSgvM",
+                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV3otpSSSgvM",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expirationDateTime",
+            "printedName": "expirationDateTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvp",
+            "mangledName": "$s8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvp",
+            "moduleName": "AuthXSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvg",
+                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvg",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvs",
+                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvs",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvM",
+                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvM",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expireInSeconds",
+            "printedName": "expireInSeconds",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvp",
+            "mangledName": "$s8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvp",
+            "moduleName": "AuthXSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvg",
+                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvg",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvs",
+                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvs",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvM",
+                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvM",
+                "moduleName": "AuthXSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(otp:expirationDateTime:expireInSeconds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenerateOTPResponse",
+                "printedName": "AuthXSDK.GenerateOTPResponse",
+                "usr": "s:8AuthXSDK19GenerateOTPResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AuthXSDK19GenerateOTPResponseV3otp18expirationDateTime15expireInSecondsACSSSg_AGSiSgtcfc",
+            "mangledName": "$s8AuthXSDK19GenerateOTPResponseV3otp18expirationDateTime15expireInSecondsACSSSg_AGSiSgtcfc",
+            "moduleName": "AuthXSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenerateOTPResponse",
+                "printedName": "AuthXSDK.GenerateOTPResponse",
+                "usr": "s:8AuthXSDK19GenerateOTPResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AuthXSDK19GenerateOTPResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8AuthXSDK19GenerateOTPResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AuthXSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8AuthXSDK19GenerateOTPResponseV",
+        "mangledName": "$s8AuthXSDK19GenerateOTPResponseV",
+        "moduleName": "AuthXSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AuthXSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "TokenInfo",
         "printedName": "TokenInfo",
         "children": [
@@ -3326,6 +5221,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "DeviceKit",
+        "printedName": "DeviceKit",
+        "declKind": "Import",
+        "moduleName": "AuthXSDK"
       },
       {
         "kind": "Import",
@@ -4442,6 +6344,120 @@
             "declKind": "Func",
             "usr": "s:8AuthXSDK0A4XSdkC12refreshToken9tokenInfo10completionyAA0eG0V_yAA0A7XResultCyAA9ContainerVGctKF",
             "mangledName": "$s8AuthXSDK0A4XSdkC12refreshToken9tokenInfo10completionyAA0eG0V_yAA0A7XResultCyAA9ContainerVGctKF",
+            "moduleName": "AuthXSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generatOTP",
+            "printedName": "generatOTP(tokenInfo:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TokenInfo",
+                "printedName": "AuthXSDK.TokenInfo",
+                "usr": "s:8AuthXSDK9TokenInfoV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AuthXSDK.AuthXResult<AuthXSDK.Container>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthXResult",
+                    "printedName": "AuthXSDK.AuthXResult<AuthXSDK.Container>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Container",
+                        "printedName": "AuthXSDK.Container",
+                        "usr": "s:8AuthXSDK9ContainerV"
+                      }
+                    ],
+                    "usr": "s:8AuthXSDK0A7XResultC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AuthXSDK0A4XSdkC10generatOTP9tokenInfo10completionyAA05TokenG0V_yAA0A7XResultCyAA9ContainerVGctKF",
+            "mangledName": "$s8AuthXSDK0A4XSdkC10generatOTP9tokenInfo10completionyAA05TokenG0V_yAA0A7XResultCyAA9ContainerVGctKF",
+            "moduleName": "AuthXSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateOTP",
+            "printedName": "validateOTP(otp:tokenInfo:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TokenInfo",
+                "printedName": "AuthXSDK.TokenInfo",
+                "usr": "s:8AuthXSDK9TokenInfoV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AuthXSDK.AuthXResult<AuthXSDK.Container>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthXResult",
+                    "printedName": "AuthXSDK.AuthXResult<AuthXSDK.Container>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Container",
+                        "printedName": "AuthXSDK.Container",
+                        "usr": "s:8AuthXSDK9ContainerV"
+                      }
+                    ],
+                    "usr": "s:8AuthXSDK0A7XResultC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AuthXSDK0A4XSdkC11validateOTP3otp9tokenInfo10completionySS_AA05TokenH0VyAA0A7XResultCyAA9ContainerVGctKF",
+            "mangledName": "$s8AuthXSDK0A4XSdkC11validateOTP3otp9tokenInfo10completionySS_AA05TokenH0VyAA0A7XResultCyAA9ContainerVGctKF",
             "moduleName": "AuthXSDK",
             "declAttributes": [
               "Final",
@@ -6525,6 +8541,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -8368,6 +10391,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -10662,7 +12692,24 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AuthXSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -14217,6 +16264,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AuthXSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -15241,6 +17298,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -15292,263 +17356,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "OTPReason",
-        "printedName": "OTPReason",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "Success",
-            "printedName": "Success",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AuthXSDK.OTPReason.Type) -> AuthXSDK.OTPReason",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OTPReason",
-                    "printedName": "AuthXSDK.OTPReason",
-                    "usr": "s:8AuthXSDK9OTPReasonO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AuthXSDK.OTPReason.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OTPReason",
-                        "printedName": "AuthXSDK.OTPReason",
-                        "usr": "s:8AuthXSDK9OTPReasonO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8AuthXSDK9OTPReasonO7SuccessyA2CmF",
-            "mangledName": "$s8AuthXSDK9OTPReasonO7SuccessyA2CmF",
-            "moduleName": "AuthXSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "Invalid",
-            "printedName": "Invalid",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AuthXSDK.OTPReason.Type) -> AuthXSDK.OTPReason",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OTPReason",
-                    "printedName": "AuthXSDK.OTPReason",
-                    "usr": "s:8AuthXSDK9OTPReasonO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AuthXSDK.OTPReason.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OTPReason",
-                        "printedName": "AuthXSDK.OTPReason",
-                        "usr": "s:8AuthXSDK9OTPReasonO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8AuthXSDK9OTPReasonO7InvalidyA2CmF",
-            "mangledName": "$s8AuthXSDK9OTPReasonO7InvalidyA2CmF",
-            "moduleName": "AuthXSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "Expire",
-            "printedName": "Expire",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AuthXSDK.OTPReason.Type) -> AuthXSDK.OTPReason",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OTPReason",
-                    "printedName": "AuthXSDK.OTPReason",
-                    "usr": "s:8AuthXSDK9OTPReasonO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AuthXSDK.OTPReason.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OTPReason",
-                        "printedName": "AuthXSDK.OTPReason",
-                        "usr": "s:8AuthXSDK9OTPReasonO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8AuthXSDK9OTPReasonO6ExpireyA2CmF",
-            "mangledName": "$s8AuthXSDK9OTPReasonO6ExpireyA2CmF",
-            "moduleName": "AuthXSDK"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AuthXSDK.OTPReason?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OTPReason",
-                    "printedName": "AuthXSDK.OTPReason",
-                    "usr": "s:8AuthXSDK9OTPReasonO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8AuthXSDK9OTPReasonO8rawValueACSgSi_tcfc",
-            "mangledName": "$s8AuthXSDK9OTPReasonO8rawValueACSgSi_tcfc",
-            "moduleName": "AuthXSDK",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8AuthXSDK9OTPReasonO8rawValueSivp",
-            "mangledName": "$s8AuthXSDK9OTPReasonO8rawValueSivp",
-            "moduleName": "AuthXSDK",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8AuthXSDK9OTPReasonO8rawValueSivg",
-                "mangledName": "$s8AuthXSDK9OTPReasonO8rawValueSivg",
-                "moduleName": "AuthXSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:8AuthXSDK9OTPReasonO",
-        "mangledName": "$s8AuthXSDK9OTPReasonO",
-        "moduleName": "AuthXSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "Int",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
           },
           {
             "kind": "Conformance",
@@ -18148,6 +19955,48 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 8,
+      "value": "\"Status\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 541,
+      "length": 8,
+      "value": "\"Reason\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 573,
+      "length": 9,
+      "value": "\"OTPMode\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 673,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 693,
+      "length": 1,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
       "offset": 161,
@@ -18498,6 +20347,27 @@
       "value": "\"Auth\""
     },
     {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/GenerateOTPResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 563,
+      "length": 5,
+      "value": "\"otp\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/GenerateOTPResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 603,
+      "length": 16,
+      "value": "\"expireDateTime\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/GenerateOTPResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 651,
+      "length": 17,
+      "value": "\"expireInSeconds\""
+    },
+    {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/NetworkConstants\/HTTPConstants.swift",
       "kind": "StringLiteral",
       "offset": 165,
@@ -18589,1518 +20459,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 872,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "IntegerLiteral",
-      "offset": 968,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1278,
-      "length": 9,
-      "value": "\"iPod5,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1334,
-      "length": 29,
-      "value": "\"iPod touch (5th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1385,
-      "length": 9,
-      "value": "\"iPod7,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1441,
-      "length": 29,
-      "value": "\"iPod touch (6th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1492,
-      "length": 9,
-      "value": "\"iPod9,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1548,
-      "length": 29,
-      "value": "\"iPod touch (7th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1599,
-      "length": 11,
-      "value": "\"iPhone3,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1612,
-      "length": 11,
-      "value": "\"iPhone3,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1625,
-      "length": 11,
-      "value": "\"iPhone3,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1655,
-      "length": 10,
-      "value": "\"iPhone 4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1687,
-      "length": 11,
-      "value": "\"iPhone4,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1743,
-      "length": 11,
-      "value": "\"iPhone 4s\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1776,
-      "length": 11,
-      "value": "\"iPhone5,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1789,
-      "length": 11,
-      "value": "\"iPhone5,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1832,
-      "length": 10,
-      "value": "\"iPhone 5\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1864,
-      "length": 11,
-      "value": "\"iPhone5,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1877,
-      "length": 11,
-      "value": "\"iPhone5,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1920,
-      "length": 11,
-      "value": "\"iPhone 5c\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1953,
-      "length": 11,
-      "value": "\"iPhone6,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 1966,
-      "length": 11,
-      "value": "\"iPhone6,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2009,
-      "length": 11,
-      "value": "\"iPhone 5s\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2042,
-      "length": 11,
-      "value": "\"iPhone7,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2098,
-      "length": 10,
-      "value": "\"iPhone 6\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2130,
-      "length": 11,
-      "value": "\"iPhone7,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2186,
-      "length": 15,
-      "value": "\"iPhone 6 Plus\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2223,
-      "length": 11,
-      "value": "\"iPhone8,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2279,
-      "length": 11,
-      "value": "\"iPhone 6s\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2312,
-      "length": 11,
-      "value": "\"iPhone8,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2368,
-      "length": 16,
-      "value": "\"iPhone 6s Plus\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2406,
-      "length": 11,
-      "value": "\"iPhone9,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2419,
-      "length": 11,
-      "value": "\"iPhone9,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2462,
-      "length": 10,
-      "value": "\"iPhone 7\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2494,
-      "length": 11,
-      "value": "\"iPhone9,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2507,
-      "length": 11,
-      "value": "\"iPhone9,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2550,
-      "length": 15,
-      "value": "\"iPhone 7 Plus\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2587,
-      "length": 12,
-      "value": "\"iPhone10,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2601,
-      "length": 12,
-      "value": "\"iPhone10,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2643,
-      "length": 10,
-      "value": "\"iPhone 8\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2675,
-      "length": 12,
-      "value": "\"iPhone10,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2689,
-      "length": 12,
-      "value": "\"iPhone10,5\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2731,
-      "length": 15,
-      "value": "\"iPhone 8 Plus\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2768,
-      "length": 12,
-      "value": "\"iPhone10,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2782,
-      "length": 12,
-      "value": "\"iPhone10,6\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2824,
-      "length": 10,
-      "value": "\"iPhone X\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2856,
-      "length": 12,
-      "value": "\"iPhone11,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2912,
-      "length": 11,
-      "value": "\"iPhone XS\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2945,
-      "length": 12,
-      "value": "\"iPhone11,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 2959,
-      "length": 12,
-      "value": "\"iPhone11,6\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3001,
-      "length": 15,
-      "value": "\"iPhone XS Max\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3038,
-      "length": 12,
-      "value": "\"iPhone11,8\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3094,
-      "length": 11,
-      "value": "\"iPhone XR\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3127,
-      "length": 12,
-      "value": "\"iPhone12,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3183,
-      "length": 11,
-      "value": "\"iPhone 11\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3216,
-      "length": 12,
-      "value": "\"iPhone12,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3272,
-      "length": 15,
-      "value": "\"iPhone 11 Pro\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3309,
-      "length": 12,
-      "value": "\"iPhone12,5\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3365,
-      "length": 19,
-      "value": "\"iPhone 11 Pro Max\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3406,
-      "length": 12,
-      "value": "\"iPhone13,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3462,
-      "length": 16,
-      "value": "\"iPhone 12 mini\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3500,
-      "length": 12,
-      "value": "\"iPhone13,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3556,
-      "length": 11,
-      "value": "\"iPhone 12\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3589,
-      "length": 12,
-      "value": "\"iPhone13,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3645,
-      "length": 15,
-      "value": "\"iPhone 12 Pro\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3682,
-      "length": 12,
-      "value": "\"iPhone13,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3738,
-      "length": 19,
-      "value": "\"iPhone 12 Pro Max\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3779,
-      "length": 12,
-      "value": "\"iPhone14,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3835,
-      "length": 16,
-      "value": "\"iPhone 13 mini\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3873,
-      "length": 12,
-      "value": "\"iPhone14,5\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3929,
-      "length": 11,
-      "value": "\"iPhone 13\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 3962,
-      "length": 12,
-      "value": "\"iPhone14,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4018,
-      "length": 15,
-      "value": "\"iPhone 13 Pro\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4055,
-      "length": 12,
-      "value": "\"iPhone14,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4111,
-      "length": 19,
-      "value": "\"iPhone 13 Pro Max\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4152,
-      "length": 12,
-      "value": "\"iPhone14,7\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4208,
-      "length": 11,
-      "value": "\"iPhone 14\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4241,
-      "length": 12,
-      "value": "\"iPhone14,8\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4297,
-      "length": 16,
-      "value": "\"iPhone 14 Plus\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4335,
-      "length": 12,
-      "value": "\"iPhone15,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4391,
-      "length": 15,
-      "value": "\"iPhone 14 Pro\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4428,
-      "length": 12,
-      "value": "\"iPhone15,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4484,
-      "length": 19,
-      "value": "\"iPhone 14 Pro Max\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4525,
-      "length": 11,
-      "value": "\"iPhone8,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4581,
-      "length": 11,
-      "value": "\"iPhone SE\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4614,
-      "length": 12,
-      "value": "\"iPhone12,8\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4670,
-      "length": 28,
-      "value": "\"iPhone SE (2nd generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4720,
-      "length": 12,
-      "value": "\"iPhone14,6\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4776,
-      "length": 28,
-      "value": "\"iPhone SE (3rd generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4826,
-      "length": 9,
-      "value": "\"iPad2,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4837,
-      "length": 9,
-      "value": "\"iPad2,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4848,
-      "length": 9,
-      "value": "\"iPad2,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4859,
-      "length": 9,
-      "value": "\"iPad2,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4882,
-      "length": 8,
-      "value": "\"iPad 2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4912,
-      "length": 9,
-      "value": "\"iPad3,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4923,
-      "length": 9,
-      "value": "\"iPad3,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4934,
-      "length": 9,
-      "value": "\"iPad3,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 4968,
-      "length": 23,
-      "value": "\"iPad (3rd generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5013,
-      "length": 9,
-      "value": "\"iPad3,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5024,
-      "length": 9,
-      "value": "\"iPad3,5\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5035,
-      "length": 9,
-      "value": "\"iPad3,6\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5069,
-      "length": 23,
-      "value": "\"iPad (4th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5114,
-      "length": 10,
-      "value": "\"iPad6,11\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5126,
-      "length": 10,
-      "value": "\"iPad6,12\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5170,
-      "length": 23,
-      "value": "\"iPad (5th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5215,
-      "length": 9,
-      "value": "\"iPad7,5\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5226,
-      "length": 9,
-      "value": "\"iPad7,6\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5271,
-      "length": 23,
-      "value": "\"iPad (6th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5316,
-      "length": 10,
-      "value": "\"iPad7,11\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5328,
-      "length": 10,
-      "value": "\"iPad7,12\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5372,
-      "length": 23,
-      "value": "\"iPad (7th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5417,
-      "length": 10,
-      "value": "\"iPad11,6\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5429,
-      "length": 10,
-      "value": "\"iPad11,7\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5473,
-      "length": 23,
-      "value": "\"iPad (8th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5518,
-      "length": 10,
-      "value": "\"iPad12,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5530,
-      "length": 10,
-      "value": "\"iPad12,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5574,
-      "length": 23,
-      "value": "\"iPad (9th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5619,
-      "length": 11,
-      "value": "\"iPad13,18\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5632,
-      "length": 11,
-      "value": "\"iPad13,19\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5675,
-      "length": 24,
-      "value": "\"iPad (10th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5721,
-      "length": 9,
-      "value": "\"iPad4,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5732,
-      "length": 9,
-      "value": "\"iPad4,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5743,
-      "length": 9,
-      "value": "\"iPad4,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5777,
-      "length": 10,
-      "value": "\"iPad Air\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5809,
-      "length": 9,
-      "value": "\"iPad5,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5820,
-      "length": 9,
-      "value": "\"iPad5,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5865,
-      "length": 12,
-      "value": "\"iPad Air 2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5899,
-      "length": 10,
-      "value": "\"iPad11,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5911,
-      "length": 10,
-      "value": "\"iPad11,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 5955,
-      "length": 27,
-      "value": "\"iPad Air (3rd generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6004,
-      "length": 10,
-      "value": "\"iPad13,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6016,
-      "length": 10,
-      "value": "\"iPad13,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6060,
-      "length": 27,
-      "value": "\"iPad Air (4th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6109,
-      "length": 11,
-      "value": "\"iPad13,16\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6122,
-      "length": 11,
-      "value": "\"iPad13,17\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6165,
-      "length": 27,
-      "value": "\"iPad Air (5th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6214,
-      "length": 9,
-      "value": "\"iPad2,5\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6225,
-      "length": 9,
-      "value": "\"iPad2,6\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6236,
-      "length": 9,
-      "value": "\"iPad2,7\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6270,
-      "length": 11,
-      "value": "\"iPad mini\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6303,
-      "length": 9,
-      "value": "\"iPad4,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6314,
-      "length": 9,
-      "value": "\"iPad4,5\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6325,
-      "length": 9,
-      "value": "\"iPad4,6\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6359,
-      "length": 13,
-      "value": "\"iPad mini 2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6394,
-      "length": 9,
-      "value": "\"iPad4,7\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6405,
-      "length": 9,
-      "value": "\"iPad4,8\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6416,
-      "length": 9,
-      "value": "\"iPad4,9\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6450,
-      "length": 13,
-      "value": "\"iPad mini 3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6485,
-      "length": 9,
-      "value": "\"iPad5,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6496,
-      "length": 9,
-      "value": "\"iPad5,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6541,
-      "length": 13,
-      "value": "\"iPad mini 4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6576,
-      "length": 10,
-      "value": "\"iPad11,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6588,
-      "length": 10,
-      "value": "\"iPad11,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6632,
-      "length": 28,
-      "value": "\"iPad mini (5th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6682,
-      "length": 10,
-      "value": "\"iPad14,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6694,
-      "length": 10,
-      "value": "\"iPad14,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6738,
-      "length": 28,
-      "value": "\"iPad mini (6th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6788,
-      "length": 9,
-      "value": "\"iPad6,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6799,
-      "length": 9,
-      "value": "\"iPad6,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6844,
-      "length": 21,
-      "value": "\"iPad Pro (9.7-inch)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6887,
-      "length": 9,
-      "value": "\"iPad7,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6898,
-      "length": 9,
-      "value": "\"iPad7,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6943,
-      "length": 22,
-      "value": "\"iPad Pro (10.5-inch)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6987,
-      "length": 9,
-      "value": "\"iPad8,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 6998,
-      "length": 9,
-      "value": "\"iPad8,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7009,
-      "length": 9,
-      "value": "\"iPad8,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7020,
-      "length": 9,
-      "value": "\"iPad8,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7043,
-      "length": 37,
-      "value": "\"iPad Pro (11-inch) (1st generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7102,
-      "length": 9,
-      "value": "\"iPad8,9\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7113,
-      "length": 10,
-      "value": "\"iPad8,10\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7158,
-      "length": 37,
-      "value": "\"iPad Pro (11-inch) (2nd generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7217,
-      "length": 10,
-      "value": "\"iPad13,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7229,
-      "length": 10,
-      "value": "\"iPad13,5\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7241,
-      "length": 10,
-      "value": "\"iPad13,6\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7253,
-      "length": 10,
-      "value": "\"iPad13,7\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7273,
-      "length": 37,
-      "value": "\"iPad Pro (11-inch) (3rd generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7332,
-      "length": 10,
-      "value": "\"iPad14,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7344,
-      "length": 10,
-      "value": "\"iPad14,4\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7388,
-      "length": 37,
-      "value": "\"iPad Pro (11-inch) (4th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7447,
-      "length": 9,
-      "value": "\"iPad6,7\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7458,
-      "length": 9,
-      "value": "\"iPad6,8\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7503,
-      "length": 39,
-      "value": "\"iPad Pro (12.9-inch) (1st generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7564,
-      "length": 9,
-      "value": "\"iPad7,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7575,
-      "length": 9,
-      "value": "\"iPad7,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7620,
-      "length": 39,
-      "value": "\"iPad Pro (12.9-inch) (2nd generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7681,
-      "length": 9,
-      "value": "\"iPad8,5\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7692,
-      "length": 9,
-      "value": "\"iPad8,6\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7703,
-      "length": 9,
-      "value": "\"iPad8,7\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7714,
-      "length": 9,
-      "value": "\"iPad8,8\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7737,
-      "length": 39,
-      "value": "\"iPad Pro (12.9-inch) (3rd generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7798,
-      "length": 10,
-      "value": "\"iPad8,11\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7810,
-      "length": 10,
-      "value": "\"iPad8,12\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7854,
-      "length": 39,
-      "value": "\"iPad Pro (12.9-inch) (4th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7915,
-      "length": 10,
-      "value": "\"iPad13,8\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7927,
-      "length": 10,
-      "value": "\"iPad13,9\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7939,
-      "length": 11,
-      "value": "\"iPad13,10\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7952,
-      "length": 11,
-      "value": "\"iPad13,11\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 7971,
-      "length": 39,
-      "value": "\"iPad Pro (12.9-inch) (5th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8032,
-      "length": 10,
-      "value": "\"iPad14,5\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8044,
-      "length": 10,
-      "value": "\"iPad14,6\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8088,
-      "length": 39,
-      "value": "\"iPad Pro (12.9-inch) (6th generation)\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8149,
-      "length": 12,
-      "value": "\"AppleTV5,3\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8205,
-      "length": 10,
-      "value": "\"Apple TV\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8237,
-      "length": 12,
-      "value": "\"AppleTV6,2\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8293,
-      "length": 13,
-      "value": "\"Apple TV 4K\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8328,
-      "length": 19,
-      "value": "\"AudioAccessory1,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8384,
-      "length": 9,
-      "value": "\"HomePod\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8415,
-      "length": 19,
-      "value": "\"AudioAccessory5,1\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8471,
-      "length": 14,
-      "value": "\"HomePod mini\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8507,
-      "length": 6,
-      "value": "\"i386\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8515,
-      "length": 8,
-      "value": "\"x86_64\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8525,
-      "length": 7,
-      "value": "\"arm64\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8563,
-      "length": 104,
-      "value": "\"Simulator \""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8626,
-      "length": 28,
-      "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8659,
-      "length": 5,
-      "value": "\"iOS\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Extentions\/UIDevice+Extention.swift",
-      "kind": "StringLiteral",
-      "offset": 8666,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Request\/SignOutRequest.swift",
       "kind": "StringLiteral",
       "offset": 326,
@@ -20173,14 +20531,14 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Controllers\/AuthXSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 314,
+      "offset": 315,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Controllers\/AuthXSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 9069,
+      "offset": 9215,
       "length": 2,
       "value": "14"
     },
@@ -20194,14 +20552,14 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "StringLiteral",
-      "offset": 1859,
+      "offset": 2058,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 16310,
+      "offset": 16512,
       "length": 4,
       "value": "true"
     },
@@ -20414,6 +20772,20 @@
       "offset": 565,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Request\/ValidateOTPRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 424,
+      "length": 8,
+      "value": "\"Device\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Request\/ValidateOTPRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 456,
+      "length": 9,
+      "value": "\"OTPCode\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Request\/EnrollmentAuthorizationRequest.swift",
@@ -21158,6 +21530,13 @@
       "value": "\"Device\""
     },
     {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Request\/GenerateOTPRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 8,
+      "value": "\"Device\""
+    },
+    {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Request\/GetCommonCertificateRequest.swift",
       "kind": "StringLiteral",
       "offset": 407,
@@ -21216,7 +21595,7 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 345,
+      "offset": 351,
       "length": 3,
       "value": "180"
     },
@@ -21233,27 +21612,6 @@
       "offset": 461,
       "length": 8,
       "value": "\"reason\""
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateSMSOTPResponse.swift",
-      "kind": "IntegerLiteral",
-      "offset": 539,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateSMSOTPResponse.swift",
-      "kind": "IntegerLiteral",
-      "offset": 560,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateSMSOTPResponse.swift",
-      "kind": "IntegerLiteral",
-      "offset": 580,
-      "length": 1,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Request\/ValidateSMSOTPRequest.swift",

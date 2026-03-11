@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "AuthXSDK"
-  s.version       = "0.0.39"
+  s.version       = "0.0.40"
   s.summary       = "AuthXSDK V2 for Authenticator"
   s.description   = "Authenticator SDK for Authenticator"
   s.homepage      = "https://www.authnex.com"
@@ -22,5 +22,6 @@ Pod::Spec.new do |s|
   s.dependency 'CertificateSigningRequest'
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
+  s.dependency 'DeviceKit'
 
 end
