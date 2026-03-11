@@ -20020,35 +20020,35 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 351,
+      "offset": 352,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 428,
+      "offset": 431,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 556,
+      "offset": 560,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 596,
+      "offset": 600,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 630,
+      "offset": 635,
       "length": 2,
       "value": "-1"
     },
@@ -20552,14 +20552,14 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "StringLiteral",
-      "offset": 2058,
+      "offset": 2144,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 16512,
+      "offset": 18102,
       "length": 4,
       "value": "true"
     },
@@ -20755,7 +20755,7 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Helper\/GlobalVariables.swift",
       "kind": "StringLiteral",
-      "offset": 406,
+      "offset": 430,
       "length": 2,
       "value": "\"\""
     },
@@ -21595,7 +21595,7 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Network\/Base\/HTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 351,
+      "offset": 345,
       "length": 3,
       "value": "180"
     },
