@@ -4558,8 +4558,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "GenerateOTPResponse",
-        "printedName": "GenerateOTPResponse",
+        "name": "OTPResponse",
+        "printedName": "OTPResponse",
         "children": [
           {
             "kind": "Var",
@@ -4582,8 +4582,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8AuthXSDK19GenerateOTPResponseV3otpSSSgvp",
-            "mangledName": "$s8AuthXSDK19GenerateOTPResponseV3otpSSSgvp",
+            "usr": "s:8AuthXSDK11OTPResponseV3otpSSSgvp",
+            "mangledName": "$s8AuthXSDK11OTPResponseV3otpSSSgvp",
             "moduleName": "AuthXSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -4613,8 +4613,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8AuthXSDK19GenerateOTPResponseV3otpSSSgvg",
-                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV3otpSSSgvg",
+                "usr": "s:8AuthXSDK11OTPResponseV3otpSSSgvg",
+                "mangledName": "$s8AuthXSDK11OTPResponseV3otpSSSgvg",
                 "moduleName": "AuthXSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4645,8 +4645,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8AuthXSDK19GenerateOTPResponseV3otpSSSgvs",
-                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV3otpSSSgvs",
+                "usr": "s:8AuthXSDK11OTPResponseV3otpSSSgvs",
+                "mangledName": "$s8AuthXSDK11OTPResponseV3otpSSSgvs",
                 "moduleName": "AuthXSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4663,8 +4663,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8AuthXSDK19GenerateOTPResponseV3otpSSSgvM",
-                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV3otpSSSgvM",
+                "usr": "s:8AuthXSDK11OTPResponseV3otpSSSgvM",
+                "mangledName": "$s8AuthXSDK11OTPResponseV3otpSSSgvM",
                 "moduleName": "AuthXSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4692,8 +4692,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvp",
-            "mangledName": "$s8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvp",
+            "usr": "s:8AuthXSDK11OTPResponseV18expirationDateTimeSSSgvp",
+            "mangledName": "$s8AuthXSDK11OTPResponseV18expirationDateTimeSSSgvp",
             "moduleName": "AuthXSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -4723,8 +4723,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvg",
-                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvg",
+                "usr": "s:8AuthXSDK11OTPResponseV18expirationDateTimeSSSgvg",
+                "mangledName": "$s8AuthXSDK11OTPResponseV18expirationDateTimeSSSgvg",
                 "moduleName": "AuthXSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4755,8 +4755,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvs",
-                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvs",
+                "usr": "s:8AuthXSDK11OTPResponseV18expirationDateTimeSSSgvs",
+                "mangledName": "$s8AuthXSDK11OTPResponseV18expirationDateTimeSSSgvs",
                 "moduleName": "AuthXSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4773,8 +4773,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvM",
-                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV18expirationDateTimeSSSgvM",
+                "usr": "s:8AuthXSDK11OTPResponseV18expirationDateTimeSSSgvM",
+                "mangledName": "$s8AuthXSDK11OTPResponseV18expirationDateTimeSSSgvM",
                 "moduleName": "AuthXSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4802,8 +4802,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvp",
-            "mangledName": "$s8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvp",
+            "usr": "s:8AuthXSDK11OTPResponseV15expireInSecondsSiSgvp",
+            "mangledName": "$s8AuthXSDK11OTPResponseV15expireInSecondsSiSgvp",
             "moduleName": "AuthXSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -4833,8 +4833,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvg",
-                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvg",
+                "usr": "s:8AuthXSDK11OTPResponseV15expireInSecondsSiSgvg",
+                "mangledName": "$s8AuthXSDK11OTPResponseV15expireInSecondsSiSgvg",
                 "moduleName": "AuthXSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4865,8 +4865,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvs",
-                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvs",
+                "usr": "s:8AuthXSDK11OTPResponseV15expireInSecondsSiSgvs",
+                "mangledName": "$s8AuthXSDK11OTPResponseV15expireInSecondsSiSgvs",
                 "moduleName": "AuthXSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4883,8 +4883,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvM",
-                "mangledName": "$s8AuthXSDK19GenerateOTPResponseV15expireInSecondsSiSgvM",
+                "usr": "s:8AuthXSDK11OTPResponseV15expireInSecondsSiSgvM",
+                "mangledName": "$s8AuthXSDK11OTPResponseV15expireInSecondsSiSgvM",
                 "moduleName": "AuthXSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4898,9 +4898,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GenerateOTPResponse",
-                "printedName": "AuthXSDK.GenerateOTPResponse",
-                "usr": "s:8AuthXSDK19GenerateOTPResponseV"
+                "name": "OTPResponse",
+                "printedName": "AuthXSDK.OTPResponse",
+                "usr": "s:8AuthXSDK11OTPResponseV"
               },
               {
                 "kind": "TypeNominal",
@@ -4946,8 +4946,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8AuthXSDK19GenerateOTPResponseV3otp18expirationDateTime15expireInSecondsACSSSg_AGSiSgtcfc",
-            "mangledName": "$s8AuthXSDK19GenerateOTPResponseV3otp18expirationDateTime15expireInSecondsACSSSg_AGSiSgtcfc",
+            "usr": "s:8AuthXSDK11OTPResponseV3otp18expirationDateTime15expireInSecondsACSSSg_AGSiSgtcfc",
+            "mangledName": "$s8AuthXSDK11OTPResponseV3otp18expirationDateTime15expireInSecondsACSSSg_AGSiSgtcfc",
             "moduleName": "AuthXSDK",
             "declAttributes": [
               "AccessControl"
@@ -4961,9 +4961,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GenerateOTPResponse",
-                "printedName": "AuthXSDK.GenerateOTPResponse",
-                "usr": "s:8AuthXSDK19GenerateOTPResponseV"
+                "name": "OTPResponse",
+                "printedName": "AuthXSDK.OTPResponse",
+                "usr": "s:8AuthXSDK11OTPResponseV"
               },
               {
                 "kind": "TypeNominal",
@@ -4973,8 +4973,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8AuthXSDK19GenerateOTPResponseV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s8AuthXSDK19GenerateOTPResponseV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:8AuthXSDK11OTPResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8AuthXSDK11OTPResponseV4fromACs7Decoder_p_tKcfc",
             "moduleName": "AuthXSDK",
             "implicit": true,
             "throwing": true,
@@ -4982,8 +4982,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:8AuthXSDK19GenerateOTPResponseV",
-        "mangledName": "$s8AuthXSDK19GenerateOTPResponseV",
+        "usr": "s:8AuthXSDK11OTPResponseV",
+        "mangledName": "$s8AuthXSDK11OTPResponseV",
         "moduleName": "AuthXSDK",
         "declAttributes": [
           "AccessControl"
@@ -20349,21 +20349,21 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/GenerateOTPResponse.swift",
       "kind": "StringLiteral",
-      "offset": 563,
+      "offset": 688,
       "length": 5,
       "value": "\"otp\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/GenerateOTPResponse.swift",
       "kind": "StringLiteral",
-      "offset": 603,
+      "offset": 728,
       "length": 16,
       "value": "\"expireDateTime\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/GenerateOTPResponse.swift",
       "kind": "StringLiteral",
-      "offset": 651,
+      "offset": 776,
       "length": 17,
       "value": "\"expireInSeconds\""
     },
@@ -20552,14 +20552,14 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "StringLiteral",
-      "offset": 2144,
+      "offset": 2136,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Views\/Main\/MainVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 18102,
+      "offset": 18094,
       "length": 4,
       "value": "true"
     },

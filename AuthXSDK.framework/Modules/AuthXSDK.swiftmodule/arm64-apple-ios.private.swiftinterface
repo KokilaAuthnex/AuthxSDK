@@ -201,7 +201,7 @@ public enum AuthenticationInfo : Swift.Int, Swift.Codable {
     get
   }
 }
-public struct GenerateOTPResponse : Swift.Decodable {
+public struct OTPResponse : Swift.Decodable {
   public var otp: Swift.String?
   public var expirationDateTime: Swift.String?
   public var expireInSeconds: Swift.Int?
