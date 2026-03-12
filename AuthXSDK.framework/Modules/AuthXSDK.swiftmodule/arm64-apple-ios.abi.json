@@ -19946,7 +19946,7 @@
       "kind": "StringLiteral",
       "offset": 573,
       "length": 9,
-      "value": "\"OTPMode\""
+      "value": "\"otpMode\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
