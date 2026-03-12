@@ -1252,41 +1252,42 @@
             "moduleName": "AuthXSDK"
           },
           {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "AuthXSDK.OTPMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPMode",
+                    "printedName": "AuthXSDK.OTPMode",
+                    "usr": "s:8AuthXSDK7OTPModeO"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "OTPMode",
-                "printedName": "AuthXSDK.OTPMode",
-                "usr": "s:8AuthXSDK7OTPModeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OTPMode",
-                "printedName": "AuthXSDK.OTPMode",
-                "usr": "s:8AuthXSDK7OTPModeO"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:8AuthXSDK7OTPModeO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s8AuthXSDK7OTPModeO2eeoiySbAC_ACtFZ",
+            "declKind": "Constructor",
+            "usr": "s:8AuthXSDK7OTPModeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s8AuthXSDK7OTPModeO8rawValueACSgSi_tcfc",
             "moduleName": "AuthXSDK",
-            "static": true,
             "implicit": true,
-            "funcSelfKind": "NonMutating"
+            "init_kind": "Designated"
           },
           {
             "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
+            "name": "rawValue",
+            "printedName": "rawValue",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1296,8 +1297,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8AuthXSDK7OTPModeO9hashValueSivp",
-            "mangledName": "$s8AuthXSDK7OTPModeO9hashValueSivp",
+            "usr": "s:8AuthXSDK7OTPModeO8rawValueSivp",
+            "mangledName": "$s8AuthXSDK7OTPModeO8rawValueSivp",
             "moduleName": "AuthXSDK",
             "implicit": true,
             "accessors": [
@@ -1314,64 +1315,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8AuthXSDK7OTPModeO9hashValueSivg",
-                "mangledName": "$s8AuthXSDK7OTPModeO9hashValueSivg",
+                "usr": "s:8AuthXSDK7OTPModeO8rawValueSivg",
+                "mangledName": "$s8AuthXSDK7OTPModeO8rawValueSivg",
                 "moduleName": "AuthXSDK",
                 "implicit": true,
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8AuthXSDK7OTPModeO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s8AuthXSDK7OTPModeO4hash4intoys6HasherVz_tF",
-            "moduleName": "AuthXSDK",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OTPMode",
-                "printedName": "AuthXSDK.OTPMode",
-                "usr": "s:8AuthXSDK7OTPModeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8AuthXSDK7OTPModeO4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s8AuthXSDK7OTPModeO4fromACs7Decoder_p_tKcfc",
-            "moduleName": "AuthXSDK",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Enum",
@@ -1381,6 +1331,7 @@
         "declAttributes": [
           "AccessControl"
         ],
+        "enumRawTypeName": "Int",
         "conformances": [
           {
             "kind": "Conformance",
@@ -1409,6 +1360,28 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
           },
           {
             "kind": "Conformance",
@@ -19959,14 +19932,14 @@
       "kind": "StringLiteral",
       "offset": 510,
       "length": 8,
-      "value": "\"Status\""
+      "value": "\"status\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
       "kind": "StringLiteral",
       "offset": 541,
       "length": 8,
-      "value": "\"Reason\""
+      "value": "\"reason\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
@@ -19992,9 +19965,37 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 693,
+      "offset": 694,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 755,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 775,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 795,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Response\/ValidateOTPResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 815,
+      "length": 1,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/HNB\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Utility\/Helper\/Enums.swift",

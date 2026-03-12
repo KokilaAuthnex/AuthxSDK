@@ -69,17 +69,18 @@ public enum OTPReason : Swift.Int, Swift.Decodable {
     get
   }
 }
-public enum OTPMode : Swift.Decodable {
+public enum OTPMode : Swift.Int, Swift.Decodable {
   case Email
   case Device
   case SMS
   case SFT
-  public static func == (a: AuthXSDK.OTPMode, b: AuthXSDK.OTPMode) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
-  public init(from decoder: any Swift.Decoder) throws
 }
 public enum RulesMode : Swift.Int, Swift.Codable {
   case KSPB
@@ -589,6 +590,7 @@ extension AuthXSDK.OTPReason : Swift.Hashable {}
 extension AuthXSDK.OTPReason : Swift.RawRepresentable {}
 extension AuthXSDK.OTPMode : Swift.Equatable {}
 extension AuthXSDK.OTPMode : Swift.Hashable {}
+extension AuthXSDK.OTPMode : Swift.RawRepresentable {}
 extension AuthXSDK.RulesMode : Swift.Equatable {}
 extension AuthXSDK.RulesMode : Swift.Hashable {}
 extension AuthXSDK.RulesMode : Swift.RawRepresentable {}

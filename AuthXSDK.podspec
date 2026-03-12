@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "AuthXSDK"
-  s.version       = "0.0.44"
+  s.version       = "0.0.45"
   s.summary       = "AuthXSDK V2 for Authenticator"
   s.description   = "Authenticator SDK for Authenticator"
   s.homepage      = "https://www.authnex.com"
