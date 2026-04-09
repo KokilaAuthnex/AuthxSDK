@@ -7,5 +7,4 @@ framework module AuthXSDK {
 
 module AuthXSDK.Swift {
   header "AuthXSDK-Swift.h"
-  requires objc
 }

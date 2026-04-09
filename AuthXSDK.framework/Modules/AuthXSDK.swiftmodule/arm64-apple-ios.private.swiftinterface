@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AuthXSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3 effective-5.10 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AuthXSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
 import Alamofire
 @_exported import AuthXSDK
 import CertificateSigningRequest
@@ -33,21 +33,13 @@ public struct ValidateOTPResponse : Swift.Decodable {
     case status
     case reason
     case otpMode
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(stringValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(intValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.String
-    #if compiler(>=5.3) && $NonescapableTypes
     public var intValue: Swift.Int? {
       get
     }
-    #endif
     public var rawValue: Swift.String {
       get
     }
@@ -61,9 +53,7 @@ public enum OTPReason : Swift.Int, Swift.Decodable {
   case Success
   case Invalid
   case Expire
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -74,9 +64,7 @@ public enum OTPMode : Swift.Int, Swift.Decodable {
   case Device
   case SMS
   case SFT
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -91,9 +79,7 @@ public enum RulesMode : Swift.Int, Swift.Codable {
   case KSPT
   case KSPF
   case NONE
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -103,28 +89,18 @@ public struct AuthInfoResponse : Swift.Decodable {
   public var userKey: Swift.String?
   public var isEnrolled: Swift.Bool?
   public var info: [AuthXSDK.UserMFAStatus]?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(userKey: Swift.String?, isEnrolled: Swift.Bool?, info: [AuthXSDK.UserMFAStatus]?)
-  #endif
   public enum CodingKeys : Swift.String, Swift.CodingKey {
     case userKey
     case isEnrolled
     case info
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(stringValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(intValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.String
-    #if compiler(>=5.3) && $NonescapableTypes
     public var intValue: Swift.Int? {
       get
     }
-    #endif
     public var rawValue: Swift.String {
       get
     }
@@ -137,27 +113,17 @@ public struct AuthInfoResponse : Swift.Decodable {
 public struct UserMFAStatus : Swift.Decodable {
   public var type: Swift.String?
   public var isEnrolled: Swift.Bool?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(type: Swift.String?, isEnrolled: Swift.Bool?)
-  #endif
   public enum CodingKeys : Swift.String, Swift.CodingKey {
     case type
     case isEnrolled
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(stringValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(intValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.String
-    #if compiler(>=5.3) && $NonescapableTypes
     public var intValue: Swift.Int? {
       get
     }
-    #endif
     public var rawValue: Swift.String {
       get
     }
@@ -169,9 +135,7 @@ public struct UserMFAStatus : Swift.Decodable {
 }
 public struct SignOutResponse : Swift.Decodable {
   public var signInStatus: AuthXSDK.SigninStatus?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(signInStatus: AuthXSDK.SigninStatus?)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
 }
 public enum AuthenticationMode : Swift.Int, Swift.Codable {
@@ -179,9 +143,7 @@ public enum AuthenticationMode : Swift.Int, Swift.Codable {
   case keyStoreOnly
   case hybrid
   case none
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -194,9 +156,7 @@ public enum AuthenticationInfo : Swift.Int, Swift.Codable {
   case deviceAuthenticator
   case hybrid
   case none
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -206,9 +166,7 @@ public struct OTPResponse : Swift.Decodable {
   public var otp: Swift.String?
   public var expirationDateTime: Swift.String?
   public var expireInSeconds: Swift.Int?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(otp: Swift.String?, expirationDateTime: Swift.String?, expireInSeconds: Swift.Int?)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct TokenInfo {
@@ -218,9 +176,7 @@ public struct TokenInfo {
 public struct ChangePasswordResponse : Swift.Decodable {
   public var status: AuthXSDK.PasswordChangeStatus?
   public var error: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(status: AuthXSDK.PasswordChangeStatus? = nil, error: Swift.String)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
 }
 public enum PasswordChangeStatus : Swift.Int, Swift.Decodable {
@@ -229,9 +185,7 @@ public enum PasswordChangeStatus : Swift.Int, Swift.Decodable {
   case InvalidUser
   case Failed
   case PreviouslyUsedPassword
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -241,9 +195,7 @@ public enum PasswordChangeStatus : Swift.Int, Swift.Decodable {
   public static let sharedInstance: AuthXSDK.AuthXSdk
   final public func initSDK() throws
   final public func initSDK(channelID: Swift.String) throws
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func initSDK(channelID: Swift.String?, clientInfo: AuthXSDK.AuthXSDKClientInfo) throws
-  #endif
   final public func isUserRegisted() throws -> Swift.Bool
   final public func resetPassword(username: Swift.String, completion: @escaping AuthXSDK.resultHandler) throws
   final public func loginValidation(userInfo: AuthXSDK.UserInfo, completion: @escaping AuthXSDK.resultHandler) throws
@@ -258,9 +210,7 @@ public enum PasswordChangeStatus : Swift.Int, Swift.Decodable {
   final public func generateSoftToken(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
   final public func changePassword(tokenInfo: AuthXSDK.TokenInfo, userInfo: AuthXSDK.PasswordChangeInfo, completion: @escaping AuthXSDK.resultHandler) throws
   final public func enroll(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func authentication(tokenInfo: AuthXSDK.TokenInfo, counter: Swift.Int? = 14, completion: @escaping AuthXSDK.resultHandler) throws
-  #endif
   final public func authenticationReject(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
   final public func updateAuthenticator(tokenInfo: AuthXSDK.TokenInfo, authType: AuthXSDK.MFAType, enabled: Swift.Bool, completion: @escaping AuthXSDK.resultHandler) throws
   final public func getAuthenticatorInfo(tokenInfo: AuthXSDK.TokenInfo, completion: @escaping AuthXSDK.resultHandler) throws
@@ -275,9 +225,7 @@ public struct LoginResponse : Swift.Decodable {
   public var userObject: AuthXSDK.UserObject?
   public var deviceCount: Swift.Int?
   public var passwordOptions: AuthXSDK.Password?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(status: AuthXSDK.LoginStatus?, token: AuthXSDK.Token?, cipherKey: Swift.String?, userObject: AuthXSDK.UserObject?, deviceCount: Swift.Int?, passwordOptions: AuthXSDK.Password?)
-  #endif
   public enum CodingKeys : Swift.String, Swift.CodingKey {
     case status
     case token
@@ -285,21 +233,13 @@ public struct LoginResponse : Swift.Decodable {
     case userObject
     case deviceCount
     case passwordOptions
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(stringValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(intValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.String
-    #if compiler(>=5.3) && $NonescapableTypes
     public var intValue: Swift.Int? {
       get
     }
-    #endif
     public var rawValue: Swift.String {
       get
     }
@@ -323,9 +263,7 @@ public enum LoginStatus : Swift.Int, Swift.Decodable {
   case R2FaNChangePWD
   case Expired
   case Undefined
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -337,30 +275,20 @@ public struct Token : Swift.Decodable {
   public var RefreshToken: Swift.String?
   public var ExpiresIn: Swift.Int?
   public var TokenType: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(Scope: Swift.String?, AccessToken: Swift.String?, RefreshToken: Swift.String?, ExpiresIn: Swift.Int?, TokenType: Swift.String?)
-  #endif
   public enum CodingKeys : Swift.String, Swift.CodingKey {
     case Scope
     case AccessToken
     case RefreshToken
     case ExpiresIn
     case TokenType
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(stringValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(intValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.String
-    #if compiler(>=5.3) && $NonescapableTypes
     public var intValue: Swift.Int? {
       get
     }
-    #endif
     public var rawValue: Swift.String {
       get
     }
@@ -381,9 +309,7 @@ public struct UserObject : Swift.Decodable {
   public var NIC: Swift.String
   public var Passport: Swift.String
   public var Image: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(UserKey: Swift.String?, UserId: Swift.String?, Salutation: Swift.String?, FirstName: Swift.String?, LastName: Swift.String?, Email: Swift.String?, MobileNo: Swift.String?, NIC: Swift.String, Passport: Swift.String, Image: Swift.String?)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct Password : Swift.Decodable {
@@ -416,18 +342,14 @@ public struct Container {
 public struct SignInResponse : Swift.Decodable {
   public var signInStatus: AuthXSDK.SigninStatus?
   public var securityLevel: AuthXSDK.SecurityLevel?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(signInStatus: AuthXSDK.SigninStatus?, securityLevel: AuthXSDK.SecurityLevel?)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct SecurityLevel : Swift.Decodable {
   public var strongBox: AuthXSDK.StrongBox?
   public var trustedEnvironment: AuthXSDK.TrustedEnvironment?
   public var software: AuthXSDK.Software?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(strongBox: AuthXSDK.StrongBox? = nil, trustedEnvironment: AuthXSDK.TrustedEnvironment? = nil, software: AuthXSDK.Software? = nil)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct StrongBox : Swift.Decodable {
@@ -455,9 +377,7 @@ public enum SigninStatus : Swift.Int, Swift.Decodable {
   case Success
   case AlreadySigned
   case Error
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -466,9 +386,7 @@ public enum SigninStatus : Swift.Int, Swift.Decodable {
 public enum AuthenticateType : Swift.Int, Swift.Encodable {
   case Credentials
   case Key
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -477,18 +395,14 @@ public enum AuthenticateType : Swift.Int, Swift.Encodable {
 public struct ResetPasswordResponse : Swift.Decodable {
   public var status: AuthXSDK.PasswordChangeStatus?
   public var error: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(status: AuthXSDK.PasswordChangeStatus? = nil, error: Swift.String?)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct GenerateSoftTokenResponse : Swift.Decodable {
   public var otp: Swift.String?
   public var expirationDateTime: Swift.String?
   public var expireInSeconds: Swift.Int?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(otp: Swift.String?, expirationDateTime: Swift.String?, expireInSeconds: Swift.Int?)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
 }
 public enum AuthXStatusCodes {
@@ -506,21 +420,13 @@ public struct ValidateSMSOTPResponse : Swift.Decodable {
   public enum CodingKeys : Swift.String, Swift.CodingKey {
     case status
     case reason
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(stringValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(intValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.String
-    #if compiler(>=5.3) && $NonescapableTypes
     public var intValue: Swift.Int? {
       get
     }
-    #endif
     public var rawValue: Swift.String {
       get
     }
@@ -537,12 +443,8 @@ public struct AuthXSDKClientInfo {
 }
 @_hasMissingDesignatedInitializers public class AuthXResult<T> {
   public var state: Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getData() -> T?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getStatusCode() -> Swift.Int?
-  #endif
   public var error: Swift.String?
   public var errorCode: Swift.String?
   public var errorCodeUnique: Swift.String?
@@ -574,9 +476,7 @@ public enum MFAType : Swift.Int, Swift.Encodable {
   case Token
   case Sms
   case none
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
