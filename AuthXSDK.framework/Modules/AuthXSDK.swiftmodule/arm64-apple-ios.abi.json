@@ -21125,7 +21125,7 @@
       "kind": "StringLiteral",
       "offset": 266,
       "length": 5,
-      "value": "\"Key\""
+      "value": "\"key\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Models\/Request\/GetAuthInfoRequest.swift",
