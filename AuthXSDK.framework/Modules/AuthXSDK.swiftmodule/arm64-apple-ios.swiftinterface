@@ -221,22 +221,7 @@ public enum PasswordChangeStatus : Swift.Int, Swift.Decodable {
   @objc deinit
 }
 public struct GenerateTOTPSecretKeyResponse : Swift.Decodable {
-  public enum CodingKeys : Swift.String, Swift.CodingKey {
-    case key
-    public init?(rawValue: Swift.String)
-    public init?(stringValue: Swift.String)
-    public init?(intValue: Swift.Int)
-    public typealias RawValue = Swift.String
-    public var intValue: Swift.Int? {
-      get
-    }
-    public var rawValue: Swift.String {
-      get
-    }
-    public var stringValue: Swift.String {
-      get
-    }
-  }
+  public var key: Swift.String?
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct LoginResponse : Swift.Decodable {
@@ -530,9 +515,6 @@ extension AuthXSDK.AuthenticationInfo : Swift.RawRepresentable {}
 extension AuthXSDK.PasswordChangeStatus : Swift.Equatable {}
 extension AuthXSDK.PasswordChangeStatus : Swift.Hashable {}
 extension AuthXSDK.PasswordChangeStatus : Swift.RawRepresentable {}
-extension AuthXSDK.GenerateTOTPSecretKeyResponse.CodingKeys : Swift.Equatable {}
-extension AuthXSDK.GenerateTOTPSecretKeyResponse.CodingKeys : Swift.Hashable {}
-extension AuthXSDK.GenerateTOTPSecretKeyResponse.CodingKeys : Swift.RawRepresentable {}
 extension AuthXSDK.LoginResponse.CodingKeys : Swift.Equatable {}
 extension AuthXSDK.LoginResponse.CodingKeys : Swift.Hashable {}
 extension AuthXSDK.LoginResponse.CodingKeys : Swift.RawRepresentable {}
