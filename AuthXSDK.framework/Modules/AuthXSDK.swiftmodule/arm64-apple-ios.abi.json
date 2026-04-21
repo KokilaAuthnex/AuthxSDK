@@ -6616,7 +6616,7 @@
           {
             "kind": "Function",
             "name": "validateQR",
-            "printedName": "validateQR(code:tokenInfo:image:completion:)",
+            "printedName": "validateQR(code:tokenInfo:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6634,12 +6634,6 @@
                 "name": "TokenInfo",
                 "printedName": "AuthXSDK.TokenInfo",
                 "usr": "s:8AuthXSDK9TokenInfoV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeFunc",
@@ -6669,8 +6663,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8AuthXSDK0A4XSdkC10validateQR4code9tokenInfo5image10completionySS_AA05TokenH0VSSyAA0A7XResultCyAA9ContainerVGctKF",
-            "mangledName": "$s8AuthXSDK0A4XSdkC10validateQR4code9tokenInfo5image10completionySS_AA05TokenH0VSSyAA0A7XResultCyAA9ContainerVGctKF",
+            "usr": "s:8AuthXSDK0A4XSdkC10validateQR4code9tokenInfo10completionySS_AA05TokenH0VyAA0A7XResultCyAA9ContainerVGctKF",
+            "mangledName": "$s8AuthXSDK0A4XSdkC10validateQR4code9tokenInfo10completionySS_AA05TokenH0VyAA0A7XResultCyAA9ContainerVGctKF",
             "moduleName": "AuthXSDK",
             "declAttributes": [
               "Final",
@@ -20659,7 +20653,7 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/AuNEX\/authxsdkv2-ios\/AuthXSDKSample\/AuthXSDK\/Controllers\/AuthXSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 10393,
+      "offset": 10378,
       "length": 2,
       "value": "14"
     },
