@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name          = "AuthXSDK"
-  s.version       = "0.0.58"
+  s.version       = "0.0.59"
   s.summary       = "AuthXSDK V2 for Authenticator"
   s.description   = "Authenticator SDK for Authenticator"
   s.homepage      = "https://www.authnex.com"
   s.author        = { "Kokila Ekanayake" => "kokila@authnex.com" }
-  s.platform     = :ios, "14.0"
+  s.platform      = :ios, "14.0"
 
   s.ios.vendored_frameworks = 'AuthXSDK.framework'
 
